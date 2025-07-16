@@ -1,0 +1,128 @@
+
+>>>new out
+stmt:
+$z0 := @parameter0: boolean
+d1:
+zero(null_type) <+length> | >>
+incoming access path:
+zero(null_type) <+length>
+outgoing:
+$z0 := @parameter0: boolean
+Signature:
+<com.applovin.sdk.AppLovinPrivacySettings: void setHasUserConsent(boolean,android.content.Context)>
+type:
+NormalFlowFunction
+
+>>>new out
+stmt:
+$z1 = staticinvoke <com.applovin.impl.privacy.a: boolean b(boolean,android.content.Context)>($z0, $r0)
+d1:
+zero(null_type) <+length> | >>
+incoming access path:
+$z0(boolean) * <+length>
+outgoing:
+$z1 = staticinvoke <com.applovin.impl.privacy.a: boolean b(boolean,android.content.Context)>($z0, $r0)
+Signature:
+<com.applovin.sdk.AppLovinPrivacySettings: void setHasUserConsent(boolean,android.content.Context)>
+type:
+CallFlowFunction
+
+>>>new out
+stmt:
+$z0 := @parameter0: boolean
+d1:
+$z0(boolean) * <+length> | >>
+incoming access path:
+$z0(boolean) * <+length>
+outgoing:
+$z1 = staticinvoke <com.applovin.impl.privacy.a: boolean b(boolean,android.content.Context)>($z0, $r0)
+Signature:
+<com.applovin.impl.privacy.a: boolean b(boolean,android.content.Context)>
+type:
+NormalFlowFunction
+
+>>>new out
+stmt:
+$r0 := @parameter1: java.lang.Object
+d1:
+$r0(java.lang.Boolean) * <+length> | >>
+incoming access path:
+$r0(java.lang.Boolean) * <+length>
+outgoing:
+staticinvoke <com.applovin.impl.sdk.c.e: void a(com.applovin.impl.sdk.c.d,java.lang.Object,android.content.Context)>($r0, $r1, $r2)
+Signature:
+<com.applovin.impl.sdk.c.e: void a(com.applovin.impl.sdk.c.d,java.lang.Object,android.content.Context)>
+type:
+NormalFlowFunction
+
+>>>new out
+stmt:
+staticinvoke <com.applovin.impl.sdk.c.e: void a(java.lang.String,java.lang.Object,android.content.SharedPreferences,android.content.SharedPreferences$Editor)>($r3, $r0, $r4, null)
+d1:
+$r0(java.lang.Boolean) * <+length> | >>
+incoming access path:
+$r0(java.lang.Boolean) * <+length>
+outgoing:
+staticinvoke <com.applovin.impl.sdk.c.e: void a(java.lang.String,java.lang.Object,android.content.SharedPreferences,android.content.SharedPreferences$Editor)>($r3, $r0, $r4, null)
+Signature:
+<com.applovin.impl.sdk.c.e: void a(com.applovin.impl.sdk.c.d,java.lang.Object,android.content.Context)>
+type:
+CallFlowFunction
+
+>>>new out
+stmt:
+$r1 := @parameter1: java.lang.Object
+d1:
+$r1(java.lang.Boolean) * <+length> | >>
+incoming access path:
+$r1(java.lang.Boolean) * <+length>
+outgoing:
+staticinvoke <com.applovin.impl.sdk.c.e: void a(java.lang.String,java.lang.Object,android.content.SharedPreferences,android.content.SharedPreferences$Editor)>($r3, $r0, $r4, null)
+Signature:
+<com.applovin.impl.sdk.c.e: void a(java.lang.String,java.lang.Object,android.content.SharedPreferences,android.content.SharedPreferences$Editor)>
+type:
+NormalFlowFunction
+
+>>>new out
+stmt:
+$r4 = (java.lang.Boolean) $r1
+d1:
+$r1(java.lang.Boolean) * <+length> | >>
+incoming access path:
+$r1(java.lang.Boolean) * <+length>
+outgoing:
+$r4 = (java.lang.Boolean) $r1
+staticinvoke <com.applovin.impl.sdk.c.e: void a(java.lang.String,java.lang.Object,android.content.SharedPreferences,android.content.SharedPreferences$Editor)>($r3, $r0, $r4, null)
+Signature:
+<com.applovin.impl.sdk.c.e: void a(java.lang.String,java.lang.Object,android.content.SharedPreferences,android.content.SharedPreferences$Editor)>
+type:
+NormalFlowFunction
+
+>>>new out
+stmt:
+$z2 = virtualinvoke $r4.<java.lang.Boolean: boolean booleanValue()>()
+d1:
+$r1(java.lang.Boolean) * <+length> | >>
+incoming access path:
+$r4(java.lang.Boolean) * <+length>
+outgoing:
+$z2 = virtualinvoke $r4.<java.lang.Boolean: boolean booleanValue()>()
+$r4 = (java.lang.Boolean) $r1
+Signature:
+<com.applovin.impl.sdk.c.e: void a(java.lang.String,java.lang.Object,android.content.SharedPreferences,android.content.SharedPreferences$Editor)>
+type:
+CallToReturnFlowFunction
+
+>>>new out
+stmt:
+interfaceinvoke $r3.<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putBoolean(java.lang.String,boolean)>($r0, $z2)
+d1:
+$r1(java.lang.Boolean) * <+length> | >>
+incoming access path:
+$z2(boolean) * <+length>
+outgoing:
+$z2 = virtualinvoke $r4.<java.lang.Boolean: boolean booleanValue()>()
+Signature:
+<com.applovin.impl.sdk.c.e: void a(java.lang.String,java.lang.Object,android.content.SharedPreferences,android.content.SharedPreferences$Editor)>
+type:
+CallToReturnFlowFunction

@@ -1,0 +1,166 @@
+%%%% SOURCES
+% <com.applovin.sdk.AppLovinPrivacySettings: void setIsAgeRestrictedUser(boolean, android.content.Context)>:1 -> _SOURCE_
+
+% <com.facebook.ads.AdSettings: void setDataProcessingOptions(java.lang.String[])> -> _SOURCE_
+% <com.applovin.sdk.AppLovinPrivacySettings: void setHasUserConsent(boolean,android.content.Context)> -> _SOURCE_
+
+% <com.inmobi.sdk.InMobiSdk: void init(android.content.Context,java.lang.String,org.json.JSONObject,com.inmobi.sdk.SdkInitializationListener)> -> _SOURCE_
+
+% <com.unity3d.ads.metadata.MetaData: boolean set(java.lang.String, java.lang.Object)>  -> _SOURCE_
+% <com.appodeal.ads.Appodeal: void updateGDPRUserConsent(GDPRUserConsent)>:1 -> _SOURCE_
+
+%%%% SINKS
+
+% <com.facebook.ads.internal.settings.MultithreadedBundleWrapper: android.os.Bundle mBundle> -> _SINK_
+% <com.facebook.ads.internal.settings.MultithreadedBundleWrapper: void putStringArray(java.lang.String,java.lang.String[])> -> _SINK_
+
+% Shared Preferences
+<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putInt(java.lang.String,int)> -> _SINK_
+<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putLong(java.lang.String,long)> -> _SINK_
+<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putString(java.lang.String,java.lang.String)> -> _SINK_
+<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putBoolean(java.lang.String,boolean)> -> _SINK_
+
+% File I/O
+% <java.io.FileOutputStream: void write(byte[])> -> _SINK_
+% <java.io.Writer: void write(java.lang.String)> -> _SINK_
+
+% Network operations
+% <java.net.HttpURLConnection: java.io.OutputStream getOutputStream()> -> _SINK_
+% <okhttp3.OkHttpClient: okhttp3.Call newCall(okhttp3.Request)> -> _SINK_
+
+% <com.appodeal.ads.regulator.h: void a(com.appodeal.consent.Consent)>:1 -> _SINK_
+% <dummyMainClass: void dummyMainMethod(java.lang.String[])> -> _SINK_
+
+<android.content.SharedPreferences$Editor: android.content.SharedPreferences$Editor putFloat(java.lang.String,float)> -> _SINK_
+<android.database.sqlite.SQLiteDatabase: android.database.Cursor query(boolean,java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String,java.lang.String)> -> _SINK_
+<android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)> -> _SINK_
+<android.database.sqlite.SQLiteDatabase: android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String,java.lang.String)> -> _SINK_
+<android.database.sqlite.SQLiteDatabase: android.database.Cursor rawQuery(java.lang.String,java.lang.String[])> -> _SINK_
+<android.database.sqlite.SQLiteQueryBuilder: android.database.Cursor query(android.database.sqlite.SQLiteDatabase,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String)>",		
+<java.io.BufferedOutputStream: void write(byte[])> -> _SINK_
+<java.io.BufferedOutputStream: void write(byte[],int,int)> -> _SINK_
+<java.io.ByteArrayOutputStream: void write(byte[])> -> _SINK_
+<java.io.ByteArrayOutputStream: void write(byte[],int,int)> -> _SINK_
+<java.io.DataOutputStream: void write(byte[])> -> _SINK_
+<java.io.DataOutputStream: void write(byte[],int,int)> -> _SINK_
+<java.io.DataOutputStream: void writeBytes(java.lang.String)> -> _SINK_
+<java.io.DataOutputStream: void writeChars(java.lang.String)> -> _SINK_
+<java.io.DataOutputStream: void writeUTF(java.lang.String)> -> _SINK_
+<java.io.FileOutputStream: void write(byte[])> -> _SINK_
+<java.io.FileOutputStream: void write(byte[],int,int)> -> _SINK_
+<java.io.FilterOutputStream: void write(byte[])> -> _SINK_
+<java.io.ObjectOutputStream: void write(byte[])> -> _SINK_
+<java.io.ObjectOutputStream: void writeUTF(java.lang.String)> -> _SINK_
+<java.io.OutputStream: void write(byte[])> -> _SINK_
+<java.io.OutputStream: void write(byte[],int,int)> -> _SINK_
+<java.io.OutputStreamWriter: void write(java.lang.String)> -> _SINK_
+<android.telephony.SmsManager: void sendDataMessage(java.lang.String,java.lang.String,short,byte[],android.app.PendingIntent,android.app.PendingIntent)> -> _SINK_
+<android.telephony.SmsManager: void sendMultipartTextMessage(java.lang.String,java.lang.String,java.util.ArrayList,java.util.ArrayList,java.util.ArrayList)> -> _SINK_
+<android.telephony.SmsManager: void sendTextMessage(java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,android.app.PendingIntent)> -> _SINK_
+<android.telephony.gsm.SmsManager: void sendDataMessage(java.lang.String,java.lang.String,short,byte[],android.app.PendingIntent,android.app.PendingIntent)> -> _SINK_
+<android.telephony.gsm.SmsManager: void sendMultipartTextMessage(java.lang.String,java.lang.String,java.util.ArrayList,java.util.ArrayList,java.util.ArrayList)> -> _SINK_
+<android.telephony.gsm.SmsManager: void sendTextMessage(java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,android.app.PendingIntent)> -> _SINK_
+<android.webkit.WebView: void loadData(java.lang.String,java.lang.String,java.lang.String)> -> _SINK_
+<android.webkit.WebView: void loadDataWithBaseURL(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)> -> _SINK_
+<android.webkit.WebView: void loadUrl(java.lang.String)> -> _SINK_
+<android.webkit.WebView: void loadUrl(java.lang.String,java.util.Map)> -> _SINK_
+<com.android.volley.RequestQueue: com.android.volley.Request add(com.android.volley.Request)> -> _SINK_
+<com.ibm.mqtt.MqttClient: com.ibm.mqtt.IMqttClient createMqttClient(java.lang.String,com.ibm.mqtt.MqttPersistence)> -> _SINK_
+<com.ibm.mqtt.MqttClient: void <init>(java.lang.String)> -> _SINK_
+<com.ibm.mqttclient.factory.MqttClientFactory: com.ibm.mqttclient.MqttClient createMqttClient(java.lang.String,java.lang.String,com.ibm.mqttclient.factory.MqttProperties)> -> _SINK_
+<com.ibm.mqttclient.factory.MqttClientFactory: com.ibm.mqttclient.MqttClient createMqttClient(java.lang.String,java.lang.String,com.ibm.mqttclient.factory.MqttProperties,com.ibm.mqttclient.MqttPersistence)> -> _SINK_
+<com.octo.android.robospice.SpiceManager: void execute(com.octo.android.robospice.request.SpiceRequest,com.octo.android.robospice.request.listener.RequestListener)> -> _SINK_
+<com.octo.android.robospice.SpiceManager: void execute(com.octo.android.robospice.request.SpiceRequest,java.lang.Object,long,com.octo.android.robospice.request.listener.RequestListener)> -> _SINK_
+<com.squareup.okhttp.OkHttpClient: com.squareup.okhttp.Call newCall(com.squareup.okhttp.Request)> -> _SINK_
+<java.io.FileOutputStream: void write(byte[])> -> _SINK_
+<java.io.FileOutputStream: void write(byte[],int,int)> -> _SINK_
+<java.io.FileOutputStream: void write(int)> -> _SINK_
+<java.io.OutputStream: void write(byte[])> -> _SINK_
+<java.io.OutputStream: void write(byte[],int,int)> -> _SINK_
+<java.io.OutputStream: void write(int)> -> _SINK_
+<java.io.OutputStreamWriter: java.io.Writer append(java.lang.CharSequence)> -> _SINK_
+<java.io.Writer: java.io.Writer append(java.lang.CharSequence)> -> _SINK_
+<java.io.Writer: void write(char[])> -> _SINK_
+<java.io.Writer: void write(char[],int,int)> -> _SINK_
+<java.io.Writer: void write(int)> -> _SINK_
+<java.io.Writer: void write(java.lang.String)> -> _SINK_
+<java.io.Writer: void write(java.lang.String,int,int)> -> _SINK_
+<java.net.DatagramSocket: void <init>(int)> -> _SINK_
+<java.net.DatagramSocket: void send(java.net.DatagramPacket)> -> _SINK_
+<java.net.HttpURLConnection: java.io.OutputStream getOutputStream()> -> _SINK_
+<java.net.HttpURLConnection: void <init>(int)> -> _SINK_
+<java.net.HttpURLConnection: void connect()> -> _SINK_
+<java.net.HttpURLConnection: void setDoOutput(boolean)> -> _SINK_
+<java.net.HttpURLConnection: void setRequestMethod(java.lang.String)> -> _SINK_
+<java.net.MulticastSocket: void <init>(int)> -> _SINK_
+<java.net.MulticastSocket: void <init>(java.net.SocketAddress)> -> _SINK_
+<java.net.MulticastSocket: void bind(java.net.SocketAddress)> -> _SINK_
+<java.net.MulticastSocket: void send(java.net.DatagramPacket)> -> _SINK_
+<java.net.ServerSocket: void <init>(int)> -> _SINK_
+<java.net.ServerSocket: void bind(java.net.SocketAddress)> -> _SINK_
+<java.net.Socket: java.io.OutputStream getOutputStream()> -> _SINK_
+<java.net.Socket: void <init>(int)> -> _SINK_
+<java.net.Socket: void connect(java.net.SocketAddress)> -> _SINK_
+<java.net.Socket: void connect(java.net.SocketAddress,int)> -> _SINK_
+<java.net.URL: java.io.InputStream openStream()> -> _SINK_
+<java.net.URL: java.net.URLConnection openConnection()> -> _SINK_
+<java.net.URLConnection: java.io.OutputStream getOutputStream()> -> _SINK_
+<java.net.URLConnection: void setDoOutput(boolean)> -> _SINK_
+<java.nio.channels.DatagramChannel: int send(java.nio.ByteBuffer,java.net.SocketAddress)> -> _SINK_
+<java.nio.channels.DatagramChannel: int write(java.nio.ByteBuffer)> -> _SINK_
+<java.nio.channels.DatagramChannel: long write(java.nio.ByteBuffer[])> -> _SINK_
+<java.nio.channels.DatagramChannel: long write(java.nio.ByteBuffer[],int,int)> -> _SINK_
+<javax.net.ssl.HttpsURLConnection: java.io.OutputStream getOutputStream()> -> _SINK_
+<okhttp3.OkHttpClient: okhttp3.Call newCall(okhttp3.Request)> -> _SINK_
+<org.apache.http.client.HttpClient: org.apache.http.HttpResponse execute(org.apache.http.client.methods.HttpUriRequest)> -> _SINK_
+<org.apache.http.client.HttpClient: org.apache.http.HttpResponse execute(org.apache.http.client.methods.HttpUriRequest,org.apache.http.protocol.HttpContext)> -> _SINK_
+<org.apache.http.client.methods.HttpGet: void <init>(java.lang.String)> -> _SINK_
+<org.apache.http.client.methods.HttpGet: void <init>(java.net.URI)> -> _SINK_
+<org.apache.http.client.methods.HttpGet: void addHeader(java.lang.String,java.lang.String)> -> _SINK_
+<org.apache.http.client.methods.HttpGet: void setHeader(java.lang.String,java.lang.String)> -> _SINK_
+<org.apache.http.client.methods.HttpPost: void <init>(java.lang.String)> -> _SINK_
+<org.apache.http.client.methods.HttpPost: void addHeader(java.lang.String,java.lang.String)> -> _SINK_
+<org.apache.http.client.methods.HttpPost: void setEntity(org.apache.http.HttpEntity)> -> _SINK_
+<org.apache.http.client.methods.HttpPost: void setHeader(java.lang.String,java.lang.String)> -> _SINK_
+<org.apache.http.impl.client.AbstractHttpClient: org.apache.http.HttpResponse execute(org.apache.http.client.methods.HttpUriRequest)> -> _SINK_
+<org.apache.http.impl.client.AbstractHttpClient: org.apache.http.HttpResponse execute(org.apache.http.client.methods.HttpUriRequest,org.apache.http.protocol.HttpContext)> -> _SINK_
+<org.apache.http.impl.client.DefaultHttpClient: org.apache.http.HttpResponse execute(org.apache.http.client.methods.HttpUriRequest)> -> _SINK_
+<org.apache.http.impl.client.DefaultHttpClient: void <init>(int)> -> _SINK_
+<org.eclipse.paho.android.service.MqttAndroidClient: org.eclipse.paho.client.mqttv3.IMqttDeliveryToken publish(java.lang.String,byte[],int,boolean)> -> _SINK_
+<org.eclipse.paho.android.service.MqttAndroidClient: org.eclipse.paho.client.mqttv3.IMqttDeliveryToken publish(java.lang.String,byte[],int,boolean,java.lang.Object,org.eclipse.paho.client.mqttv3.IMqttActionListener)> -> _SINK_
+<org.eclipse.paho.android.service.MqttAndroidClient: org.eclipse.paho.client.mqttv3.IMqttDeliveryToken publish(java.lang.String,org.eclipse.paho.client.mqttv3.MqttMessage)> -> _SINK_
+<org.eclipse.paho.android.service.MqttAndroidClient: org.eclipse.paho.client.mqttv3.IMqttDeliveryToken publish(java.lang.String,org.eclipse.paho.client.mqttv3.MqttMessage,java.lang.Object,org.eclipse.paho.client.mqttv3.IMqttActionListener)> -> _SINK_
+<org.eclipse.paho.client.mqttv3.MqttClient: org.eclipse.paho.client.mqttv3.MqttTopic getTopic(java.lang.String)> -> _SINK_
+<org.eclipse.paho.client.mqttv3.MqttClient: void <init>(java.lang.String,java.lang.String)> -> _SINK_
+<org.eclipse.paho.client.mqttv3.MqttClient: void <init>(java.lang.String,java.lang.String,org.eclipse.paho.client.mqttv3/MqttClientPersistence)> -> _SINK_
+<org.eclipse.paho.client.mqttv3.MqttClient: void publish(java.lang.String,byte[],int,boolean)> -> _SINK_
+<org.eclipse.paho.client.mqttv3.MqttClient: void publish(java.lang.String,org.eclipse.paho.client.mqttv3.MqttMessage)> -> _SINK_
+<org.eclipse.paho.client.mqttv3.MqttTopic: org.eclipse.paho.client.mqttv3.MqttDeliveryToken publish(byte[],int,boolean)> -> _SINK_
+<org.eclipse.paho.client.mqttv3.MqttTopic: org.eclipse.paho.client.mqttv3.MqttDeliveryToken publish(org.eclipse.paho.client.mqttv3.MqttMessage)> -> _SINK_
+<org.jetbrains.anko.AsyncKt: java.util.concurrent.Future doAsync$default(java.lang.Object,kotlin.jvm.functions.Function1,kotlin.jvm.functions.Function1,int,java.lang.Object)> -> _SINK_
+<org.ksoap2.transport.AndroidHttpTransport: void call(java.lang.String,org.ksoap2.SoapEnvelope)> -> _SINK_
+<org.ksoap2.transport.HttpTransportSE: void call(java.lang.String,org.ksoap2.SoapEnvelope)> -> _SINK_
+<org.ksoap2x.transport.HttpTransportSE: java.util.List call(java.lang.String,org.ksoap2x.SoapEnvelope,java.util.List)> -> _SINK_
+<org.ksoap2x.transport.HttpTransportSE: java.util.List call(java.lang.String,org.ksoap2x.SoapEnvelope,java.util.List,java.io.File)> -> _SINK_
+<org.ksoap2x.transport.KeepAliveHttpTransportSE: java.util.List call(java.lang.String,org.ksoap2x.SoapEnvelope,java.util.List)> -> _SINK_
+<org.springframework.web.client.RestOperations: org.springframework.http.ResponseEntity exchange(java.lang.String,org.springframework.http.HttpMethod,org.springframework.http.HttpEntity,java.lang.Class,java.lang.Object[])> -> _SINK_
+<org.springframework.web.client.RestTemplate: org.springframework.http.ResponseEntity exchange(java.lang.String,org.springframework.http.HttpMethod,org.springframework.http.HttpEntity,java.lang.Class,java.lang.Object[])> -> _SINK_
+<retrofit.client.ApacheClient: org.apache.http.HttpResponse execute(org.apache.http.client.HttpClient,org.apache.http.client.methods.HttpUriRequest)> -> _SINK_
+<retrofit.client.OkClient: retrofit.client.Response execute(retrofit.client.Request)> -> _SINK_
+<retrofit2.Retrofit$Builder: retrofit2.Retrofit build()> -> _SINK_
+<io.fabric.sdk.android.services.network.HttpRequest: io.fabric.sdk.android.services.network.HttpRequest send(java.lang.CharSequence)> -> _SINK_
+<io.fabric.sdk.android.services.network.HttpRequest: io.fabric.sdk.android.services.network.HttpRequest send(java.io.InputStream)> -> _SINK_
+<com.google.android.gms.ads.internal.gmsg.HttpClient: org.json.JSONObject send(org.json.JSONObject)> -> _SINK_
+<com.loopj.android.http.AsyncHttpClient: com.loopj.android.http.RequestHandle sendRequest(org.apache.http.impl.client.DefaultHttpClient,org.apache.http.protocol.HttpContext,org.apache.http.client.methods.HttpUriRequest,java.lang.String,com.loopj.android.http.ResponseHandlerInterface,android.content.Context)> -> _SINK_
+<com.loopj.android.http.AsyncHttpClient: void post(android.content.Context,java.lang.String,org.apache.http.HttpEntity,java.lang.String,com.loopj.android.http.AsyncHttpResponseHandler)> -> _SINK_
+<com.loopj.android.http.AsyncHttpClient: void post(java.lang.String,com.loopj.android.http.RequestParams,com.loopj.android.http.AsyncHttpResponseHandler)> -> _SINK_
+<org.eclipse.paho.client.mqttv3.MqttAsyncClient: org.eclipse.paho.client.mqttv3.IMqttDeliveryToken publish(java.lang.String,byte[],int,boolean)> -> _SINK_
+<org.eclipse.paho.client.mqttv3.MqttAsyncClient: org.eclipse.paho.client.mqttv3.IMqttDeliveryToken publish(java.lang.String,byte[],int,boolean,java.lang.Object,org.eclipse.paho.client.mqttv3.IMqttActionListener)> -> _SINK_
+<org.eclipse.paho.client.mqttv3.MqttAsyncClient: org.eclipse.paho.client.mqttv3.IMqttDeliveryToken publish(java.lang.String,org.eclipse.paho.client.mqttv3.MqttMessage,java.lang.Object,org.eclipse.paho.client.mqttv3.IMqttActionListener)> -> _SINK_
+<org.eclipse.paho.client.mqttv3.MqttClient: void publish(java.lang.String,org.eclipse.paho.client.mqttv3.MqttMessage)> -> _SINK_
+<org.eclipse.paho.client.mqttv3.MqttTopic: org.eclipse.paho.client.mqttv3.MqttDeliveryToken publish(org.eclipse.paho.client.mqttv3.MqttMessage)> -> _SINK_
+<org.eclipse.paho.client.mqttv3.internal.IDisconnectedBufferCallback: void publishBufferedMessage(org.eclipse.paho.client.mqttv3.BufferedMessage)> -> _SINK_
+<com.amazonaws.mobileconnectors.iot.AWSIotMqttManager: void publishData(byte[],java.lang.String,com.amazonaws.mobileconnectors.iot.AWSIotMqttQos)> -> _SINK_
+<com.amazonaws.mobileconnectors.iot.AWSIotMqttManager: void publishData(byte[],java.lang.String,com.amazonaws.mobileconnectors.iot.AWSIotMqttQos,com.amazonaws.mobileconnectors.iot.AWSIotMqttMessageDeliveryCallback,java.lang.Object)> -> _SINK_
+<com.amazonaws.mobileconnectors.iot.AWSIotMqttManager: void publishString(java.lang.String,java.lang.String,com.amazonaws.mobileconnectors.iot.AWSIotMqttQos)> -> _SINK_
+<com.amazonaws.mobileconnectors.iot.AWSIotMqttManager: void publishString(java.lang.String,java.lang.String,com.amazonaws.mobileconnectors.iot.AWSIotMqttQos,com.amazonaws.mobileconnectors.iot.AWSIotMqttMessageDeliveryCallback,java.lang.Object)> -> _SINK_

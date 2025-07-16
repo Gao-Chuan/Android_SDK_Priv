@@ -1,0 +1,4058 @@
+{
+    "Yandex": {
+        "init": [
+            {
+                "apiClazzName": "com.yandex.mobile.ads.AdActivity",
+                "apiMethodName": "onCreate",
+                "policyArgs": null,
+                "consentArgsIndex": null,
+                "consentArgsValue": null
+            }
+        ],
+        "gdpr": [
+            {
+                "apiClazzName": "com.yandex.mobile.ads.MobileAds",
+                "apiMethodName": "setUserConsent",
+                "policyArgs": null,
+                "consentArgsIndex": 0,
+                "consentArgsValue": {
+                    "gdpr_true": true,
+                    "gdpr_false": false
+                }
+            }
+        ],
+        "us_p": [],
+        "coppa": [
+            {
+                "apiClazzName": "com.yandex.mobile.ads.MobileAds",
+                "apiMethodName": "setAgeRestrictedUser",
+                "policyArgs": null,
+                "consentArgsIndex": 0,
+                "consentArgsValue": {
+                    "coppa_true": true,
+                    "coppa_false": false
+                }
+            }
+        ]
+    },
+    "MobileFuse": {
+        "init": [],
+        "gdpr": [
+            {
+                "apiClazzName": "com.mobilefuse.sdk.privacy.MobileFusePrivacyPreferences$Builder",
+                "apiMethodName": "setIabConsentString",
+                "policyArgs": null,
+                "consentArgsIndex": 0,
+                "consentArgsValue": {
+                    "gdpr_true": "1YY-",
+                    "gdpr_false": "1YN-",
+                    "gdpr_unknown": "1---"
+                }
+            }
+        ],
+        "us_p": [
+            {
+                "apiClazzName": "com.mobilefuse.sdk.privacy.MobileFusePrivacyPreferences$Builder",
+                "apiMethodName": "setUsPrivacyConsentString",
+                "policyArgs": null,
+                "consentArgsIndex": 0,
+                "consentArgsValue": {
+                    "usp_true": "1YY-",
+                    "usp_false": "1YN-",
+                    "usp_unknown": "1---"
+                }
+            }
+        ],
+        "coppa": [
+            {
+                "apiClazzName": "com.mobilefuse.sdk.privacy.MobileFusePrivacyPreferences$Builder",
+                "apiMethodName": "setSubjectToCoppa",
+                "policyArgs": null,
+                "consentArgsIndex": 0,
+                "consentArgsValue": {
+                    "coppa_true": true,
+                    "coppa_false": false
+                }
+            }
+        ]
+    },
+    "Bytedance": {
+        "init": [
+            {
+                "apiClazzName": "com.bytedance.sdk.openadsdk.api.init.PAGSdk",
+                "apiMethodName": "init",
+                "policyArgs": null,
+                "consentArgsIndex": null,
+                "consentArgsValue": null
+            }
+        ],
+        "gdpr": [
+            {
+                "apiClazzName": "com.bytedance.sdk.openadsdk.api.init.PAGConfig",
+                "apiMethodName": "setGDPRConsent",
+                "policyArgs": null,
+                "consentArgsIndex": 0,
+                "consentArgsValue": {
+                    "gdpr_true": 1,
+                    "gdpr_false": 0
+                }
+            }
+        ],
+        "us_p": [
+            {
+                "apiClazzName": "com.bytedance.sdk.openadsdk.api.init.PAGConfig",
+                "apiMethodName": "setDoNotSell",
+                "policyArgs": null,
+                "consentArgsIndex": 0,
+                "consentArgsValue": {
+                    "usp_true": 1,
+                    "usp_false": 0
+                }
+            }
+        ],
+        "coppa": [
+            {
+                "apiClazzName": "com.bytedance.sdk.openadsdk.api.init.PAGConfig",
+                "apiMethodName": "setChildDirected",
+                "policyArgs": null,
+                "consentArgsIndex": 0,
+                "consentArgsValue": {
+                    "coppa_true": 1,
+                    "coppa_false": 0
+                }
+            }
+        ]
+    },
+    "BidMachine": {
+        "init": [
+            {
+                "apiClazzName": "io.bidmachine.BidMachine",
+                "apiMethodName": "initialize",
+                "policyArgs": null,
+                "consentArgsIndex": null,
+                "consentArgsValue": null
+            },
+            {
+                "apiClazzName": "io.bidmachine.BidMachine",
+                "apiMethodName": "initialize",
+                "policyArgs": null,
+                "consentArgsIndex": null,
+                "consentArgsValue": null
+            }
+        ],
+        "gdpr": [
+            {
+                "apiClazzName": "io.bidmachine.BidMachine",
+                "apiMethodName": "setConsentConfig",
+                "policyArgs": null,
+                "consentArgsIndex": 0,
+                "consentArgsValue": {
+                    "gdpr_true": true,
+                    "gdpr_false": false
+                }
+            }
+        ],
+        "us_p": [
+            {
+                "apiClazzName": "io.bidmachine.BidMachine",
+                "apiMethodName": "setUSPrivacyString",
+                "policyArgs": null,
+                "consentArgsIndex": 0,
+                "consentArgsValue": {
+                    "usp_true": "1YY-",
+                    "usp_false": "1YN-",
+                    "usp_unknown": "1---"
+                }
+            }
+        ],
+        "coppa": [
+            {
+                "apiClazzName": "io.bidmachine.BidMachine",
+                "apiMethodName": "setCoppa",
+                "policyArgs": null,
+                "consentArgsIndex": 0,
+                "consentArgsValue": {
+                    "coppa_true": true,
+                    "coppa_false": false
+                }
+            }
+        ]
+    },
+    "AppLovin": {
+        "init": [
+            {
+                "apiClazzName": "com.applovin.sdk.AppLovinSdk",
+                "apiMethodName": "initializeSdk",
+                "policyArgs": null,
+                "consentArgsIndex": null,
+                "consentArgsValue": null
+            },
+            {
+                "apiClazzName": "com.applovin.sdk.AppLovinSdk",
+                "apiMethodName": "initializeSdk",
+                "policyArgs": null,
+                "consentArgsIndex": null,
+                "consentArgsValue": null
+            },
+            {
+                "apiClazzName": "com.applovin.sdk.AppLovinSdk",
+                "apiMethodName": "initializeSdk",
+                "policyArgs": null,
+                "consentArgsIndex": null,
+                "consentArgsValue": null
+            },
+            {
+                "apiClazzName": "com.applovin.sdk.AppLovinSdk",
+                "apiMethodName": "initializeSdk",
+                "policyArgs": null,
+                "consentArgsIndex": null,
+                "consentArgsValue": null
+            }
+        ],
+        "gdpr": [
+            {
+                "apiClazzName": "com.applovin.sdk.AppLovinPrivacySettings",
+                "apiMethodName": "setHasUserConsent",
+                "policyArgs": null,
+                "consentArgsIndex": 0,
+                "consentArgsValue": {
+                    "gdpr_true": true,
+                    "gdpr_false": false
+                }
+            }
+        ],
+        "us_p": [
+            {
+                "apiClazzName": "com.applovin.sdk.AppLovinPrivacySettings",
+                "apiMethodName": "setDoNotSell",
+                "policyArgs": null,
+                "consentArgsIndex": 0,
+                "consentArgsValue": {
+                    "usp_true": true,
+                    "usp_false": false
+                }
+            }
+        ],
+        "coppa": [
+            {
+                "apiClazzName": "com.applovin.sdk.AppLovinPrivacySettings",
+                "apiMethodName": "setIsAgeRestrictedUser",
+                "policyArgs": null,
+                "consentArgsIndex": 0,
+                "consentArgsValue": {
+                    "coppa_true": true,
+                    "coppa_false": false
+                }
+            }
+        ]
+    },
+    "AppsFlyer": {
+        "init": [
+            {
+                "apiClazzName": "com.appsflyer.AppsFlyerLib",
+                "apiMethodName": "init",
+                "policyArgs": null,
+                "consentArgsIndex": null,
+                "consentArgsValue": null
+            }
+        ],
+        "gdpr": [
+            "IAB Framework",
+            {
+                "apiClazzName": "com.appsflyer.unity.AppsFlyerAndroidWrapper",
+                "apiMethodName": "stopTracking",
+                "policyArgs": null,
+                "consentArgsIndex": 0,
+                "consentArgsValue": {
+                    "gdpr_true": true,
+                    "gdpr_false": false
+                }
+            }
+        ],
+        "us_p": [
+            "IAB Framework",
+            {
+                "apiClazzName": "com.appsflyer.unity.AppsFlyerAndroidWrapper",
+                "apiMethodName": "stopTracking",
+                "policyArgs": null,
+                "consentArgsIndex": 0,
+                "consentArgsValue": {
+                    "usp_true": true,
+                    "usp_false": false
+                }
+            }
+        ],
+        "coppa": [
+            "IAB Framework",
+            {
+                "apiClazzName": "com.appsflyer.unity.AppsFlyerAndroidWrapper",
+                "apiMethodName": "stopTracking",
+                "policyArgs": null,
+                "consentArgsIndex": 0,
+                "consentArgsValue": {
+                    "coppa_true": true,
+                    "coppa_false": false
+                }
+            }
+        ]
+    },
+    "MoPub": {
+        "init": [
+            {
+                "apiClazzName": "com.mopub.common.MoPub",
+                "apiMethodName": "initializeSdk",
+                "policyArgs": null,
+                "consentArgsIndex": null,
+                "consentArgsValue": null
+            }
+        ],
+        "gdpr": [],
+        "us_p": [],
+        "coppa": []
+    },
+    "Integral Ad Science": {
+        "init": [],
+        "gdpr": [],
+        "us_p": [],
+        "coppa": []
+    },
+    "AdColony": {
+        "init": [
+            {
+                "apiClazzName": "com.adcolony.sdk.AdColony",
+                "apiMethodName": "configure",
+                "policyArgs": null,
+                "consentArgsIndex": null,
+                "consentArgsValue": null
+            }
+        ],
+        "gdpr": [
+            {
+                "apiClazzName": "com.adcolony.sdk.AdColonyAppOptions",
+                "apiMethodName": "setPrivacyFrameworkRequired",
+                "policyArgs": {
+                    "0": "GDPR"
+                },
+                "consentArgsIndex": 1,
+                "consentArgsValue": {
+                    "gdpr_true": true,
+                    "gdpr_false": false
+                }
+            }
+        ],
+        "us_p": [
+            {
+                "apiClazzName": "com.adcolony.sdk.AdColonyAppOptions",
+                "apiMethodName": "setPrivacyFrameworkRequired",
+                "policyArgs": {
+                    "0": "CCPA"
+                },
+                "consentArgsIndex": 1,
+                "consentArgsValue": {
+                    "usp_true": true,
+                    "usp_false": false
+                }
+            }
+        ],
+        "coppa": [
+            {
+                "apiClazzName": "com.adcolony.sdk.AdColonyAppOptions",
+                "apiMethodName": "setPrivacyFrameworkRequired",
+                "policyArgs": {
+                    "0": "COPPA"
+                },
+                "consentArgsIndex": 1,
+                "consentArgsValue": {
+                    "coppa_true": true,
+                    "coppa_false": false
+                }
+            }
+        ]
+    },
+    "Facebook Audience Network": {
+        "init": [
+            {
+                "apiClazzName": "com.facebook.ads.AudienceNetworkAds",
+                "apiMethodName": "initialize",
+                "policyArgs": null,
+                "consentArgsIndex": null,
+                "consentArgsValue": null
+            }
+        ],
+        "gdpr": [],
+        "us_p": [
+            {
+                "apiClazzName": "com.facebook.ads.AdSettings",
+                "apiMethodName": "setDataProcessingOptions",
+                "policyArgs": {
+                    "0": "LDU"
+                },
+                "consentArgsIndex": 2,
+                "consentArgsValue": {
+                    "usp_true": 1000,
+                    "usp_false": null
+                }
+            }
+        ],
+        "coppa": [
+            {
+                "apiClazzName": "com.facebook.ads.AdSettings",
+                "apiMethodName": "setMixedAudience",
+                "policyArgs": null,
+                "consentArgsIndex": 0,
+                "consentArgsValue": {
+                    "coppa_true": true,
+                    "coppa_false": false
+                }
+            }
+        ]
+    },
+    "AdMob": {
+        "init": [
+            {
+                "apiClazzName": "com.google.android.gms.ads.MobileAds",
+                "apiMethodName": "initialize",
+                "policyArgs": null,
+                "consentArgsIndex": null,
+                "consentArgsValue": null
+            },
+            {
+                "apiClazzName": "com.google.android.gms.ads.MobileAds",
+                "apiMethodName": "initialize",
+                "policyArgs": null,
+                "consentArgsIndex": null,
+                "consentArgsValue": null
+            }
+        ],
+        "gdpr": [
+            {
+                "apiClazzName": "com.google.android.ump.ConsentInformation",
+                "apiMethodName": "requestConsentInfoUpdate",
+                "policyArgs": null,
+                "consentArgsIndex": null,
+                "consentArgsValue": null
+            },
+            {
+                "apiClazzName": "com.google.android.gms.internal.consent_sdk.zzj",
+                "apiMethodName": "requestConsentInfoUpdate",
+                "policyArgs": null,
+                "consentArgsIndex": null,
+                "consentArgsValue": null
+            },
+            "IAB Framework"
+        ],
+        "us_p": [
+            "IAB Framework"
+        ],
+        "coppa": [
+            {
+                "apiClazzName": "com.google.android.ump.ConsentRequestParameters$Builder",
+                "apiMethodName": "setTagForUnderAgeOfConsent",
+                "policyArgs": null,
+                "consentArgsIndex": 0,
+                "consentArgsValue": {
+                    "coppa_true": true,
+                    "coppa_false": false
+                }
+            }
+        ]
+    },
+    "Ironsource": {
+        "init": [
+            {
+                "apiClazzName": "com.ironsource.sdk.IronSourceNetwork",
+                "apiMethodName": "initSDK",
+                "policyArgs": null,
+                "consentArgsIndex": null,
+                "consentArgsValue": null
+            }
+        ],
+        "gdpr": [
+            {
+                "apiClazzName": "com.ironsource.mediationsdk.IronSource",
+                "apiMethodName": "setConsent",
+                "policyArgs": null,
+                "consentArgsIndex": 0,
+                "consentArgsValue": {
+                    "gdpr_true": true,
+                    "gdpr_false": false
+                }
+            }
+        ],
+        "us_p": [
+            {
+                "apiClazzName": "com.ironsource.mediationsdk.IronSource",
+                "apiMethodName": "setMetaData",
+                "policyArgs": {
+                    "0": "do_not_sell"
+                },
+                "consentArgsIndex": 1,
+                "consentArgsValue": {
+                    "usp_true": "true",
+                    "usp_false": "false"
+                }
+            }
+        ],
+        "coppa": [
+            {
+                "apiClazzName": "com.ironsource.mediationsdk.IronSource",
+                "apiMethodName": "setMetaData",
+                "policyArgs": {
+                    "0": "is_child_directed"
+                },
+                "consentArgsIndex": 1,
+                "consentArgsValue": {
+                    "coppa_true": "true",
+                    "coppa_false": "false"
+                }
+            }
+        ]
+    },
+    "Tapjoy": {
+        "init": [
+            {
+                "apiClazzName": "com.tapjoy.Tapjoy",
+                "apiMethodName": "connect",
+                "policyArgs": null,
+                "consentArgsIndex": null,
+                "consentArgsValue": null
+            },
+            {
+                "apiClazzName": "com.tapjoy.Tapjoy",
+                "apiMethodName": "connect",
+                "policyArgs": null,
+                "consentArgsIndex": null,
+                "consentArgsValue": null
+            }
+        ],
+        "gdpr": [
+            {
+                "apiClazzName": "com.tapjoy.TJPrivacyPolicy",
+                "apiMethodName": "setUserConsent",
+                "policyArgs": null,
+                "consentArgsIndex": 0,
+                "consentArgsValue": {
+                    "gdpr_true": 1,
+                    "gdpr_false": 0
+                }
+            }
+        ],
+        "us_p": [
+            {
+                "apiClazzName": "com.tapjoy.TJPrivacyPolicy",
+                "apiMethodName": "setUSPrivacy",
+                "policyArgs": null,
+                "consentArgsIndex": 0,
+                "consentArgsValue": {
+                    "usp_true": "1YY-",
+                    "usp_false": "1YN-",
+                    "usp_unknown": "1---"
+                }
+            }
+        ],
+        "coppa": [
+            {
+                "apiClazzName": "com.tapjoy.TJPrivacyPolicy",
+                "apiMethodName": "setBelowConsentAge",
+                "policyArgs": null,
+                "consentArgsIndex": 0,
+                "consentArgsValue": {
+                    "coppa_true": true,
+                    "coppa_false": false
+                }
+            }
+        ]
+    },
+    "Unity Ads": {
+        "init": [
+            {
+                "apiClazzName": "com.unity3d.ads.UnityAds",
+                "apiMethodName": "initialize",
+                "policyArgs": null,
+                "consentArgsIndex": null,
+                "consentArgsValue": null
+            }
+        ],
+        "gdpr": [
+            {
+                "apiClazzName": "com.unity3d.ads.metadata.MetaData",
+                "apiMethodName": "set",
+                "policyArgs": {
+                    "0": "gdpr.consent"
+                },
+                "consentArgsIndex": 1,
+                "consentArgsValue": {
+                    "gdpr_true": true,
+                    "gdpr_false": false
+                }
+            },
+            {
+                "apiClazzName": "com.unity3d.ads.metadata.MetaData",
+                "apiMethodName": "set",
+                "policyArgs": {
+                    "0": "gdpr.consent"
+                },
+                "consentArgsIndex": 1,
+                "consentArgsValue": {
+                    "gdpr_true": true,
+                    "gdpr_false": false
+                }
+            }
+        ],
+        "us_p": [
+            {
+                "apiClazzName": "com.unity3d.ads.metadata.MetaData",
+                "apiMethodName": "set",
+                "policyArgs": {
+                    "0": "privacy.consent"
+                },
+                "consentArgsIndex": 1,
+                "consentArgsValue": {
+                    "usp_true": true,
+                    "usp_false": false
+                }
+            },
+            {
+                "apiClazzName": "com.unity3d.ads.metadata.MetaData",
+                "apiMethodName": "set",
+                "policyArgs": {
+                    "0": "privacy.consent"
+                },
+                "consentArgsIndex": 1,
+                "consentArgsValue": {
+                    "usp_true": true,
+                    "usp_false": false
+                }
+            }
+        ],
+        "coppa": [
+            {
+                "apiClazzName": "com.unity3d.ads.metadata.MetaData",
+                "apiMethodName": "set",
+                "policyArgs": {
+                    "0": "user.nonbehavioral"
+                },
+                "consentArgsIndex": 1,
+                "consentArgsValue": {
+                    "coppa_true": true,
+                    "coppa_false": false
+                }
+            },
+            {
+                "apiClazzName": "com.unity3d.ads.metadata.MetaData",
+                "apiMethodName": "set",
+                "policyArgs": {
+                    "0": "user.nonbehavioral"
+                },
+                "consentArgsIndex": 1,
+                "consentArgsValue": {
+                    "coppa_true": true,
+                    "coppa_false": false
+                }
+            }
+        ]
+    },
+    "Vungle": {
+        "init": [
+            {
+                "apiClazzName": "com.vungle.warren.Vungle",
+                "apiMethodName": "init",
+                "policyArgs": null,
+                "consentArgsIndex": null,
+                "consentArgsValue": null
+            },
+            {
+                "apiClazzName": "com.vungle.warren.Vungle",
+                "apiMethodName": "init",
+                "policyArgs": null,
+                "consentArgsIndex": null,
+                "consentArgsValue": null
+            },
+            {
+                "apiClazzName": "com.vungle.warren.Vungle",
+                "apiMethodName": "init",
+                "policyArgs": null,
+                "consentArgsIndex": null,
+                "consentArgsValue": null
+            }
+        ],
+        "gdpr": [
+            {
+                "apiClazzName": "com.vungle.warren.Vungle",
+                "apiMethodName": "updateConsentStatus",
+                "policyArgs": null,
+                "consentArgsIndex": 0,
+                "consentArgsValue": {
+                    "gdpr_true": "Vungle.Consent.OPTED_IN",
+                    "gdpr_false": "Vungle.Consent.OPTED_OUT"
+                }
+            }
+        ],
+        "us_p": [
+            {
+                "apiClazzName": "com.vungle.warren.Vungle",
+                "apiMethodName": "updateCCPAStatus",
+                "policyArgs": null,
+                "consentArgsIndex": 0,
+                "consentArgsValue": {
+                    "usp_true": "Vungle.Consent.OPTED_IN",
+                    "usp_false": "Vungle.Consent.OPTED_OUT"
+                }
+            }
+        ],
+        "coppa": [
+            {
+                "apiClazzName": "com.vungle.warren.Vungle",
+                "apiMethodName": "updateUserCoppaStatus",
+                "policyArgs": null,
+                "consentArgsIndex": 0,
+                "consentArgsValue": {
+                    "coppa_true": true,
+                    "coppa_false": false
+                }
+            }
+        ]
+    },
+    "Adjust": {
+        "init": [
+            {
+                "apiClazzName": "com.adjust.sdk.Adjust",
+                "apiMethodName": "onCreate",
+                "policyArgs": null,
+                "consentArgsIndex": null,
+                "consentArgsValue": null
+            }
+        ],
+        "gdpr": [
+            {
+                "apiClazzName": "com.adjust.sdk.Adjust",
+                "apiMethodName": "gdprForgetMe",
+                "policyArgs": null,
+                "consentArgsIndex": null,
+                "consentArgsValue": null
+            }
+        ],
+        "us_p": [
+            {
+                "apiClazzName": "com.adjust.sdk.Adjust",
+                "apiMethodName": "trackThirdPartySharing",
+                "policyArgs": null,
+                "consentArgsIndex": 0,
+                "consentArgsValue": {
+                    "usp_true": "new AdjustThirdPartySharing(true)",
+                    "usp_false": "new AdjustThirdPartySharing(false)"
+                }
+            }
+        ],
+        "coppa": [
+            {
+                "apiClazzName": "com.adjust.sdk.AdjustConfig",
+                "apiMethodName": "setCoppaCompliantEnabled",
+                "policyArgs": null,
+                "consentArgsIndex": 0,
+                "consentArgsValue": {
+                    "coppa_true": "Ture",
+                    "coppa_false": false
+                }
+            }
+        ]
+    },
+    "Ogury": {
+        "init": [
+            {
+                "apiClazzName": "com.ogury.sdk.Ogury",
+                "apiMethodName": "start",
+                "policyArgs": null,
+                "consentArgsIndex": null,
+                "consentArgsValue": null
+            }
+        ],
+        "gdpr": [
+            {
+                "apiClazzName": "com.ogury.cm.OguryChoiceManagerExternal",
+                "apiMethodName": "setConsent",
+                "policyArgs": {
+                    "1": "CUSTOM"
+                },
+                "consentArgsIndex": 0,
+                "consentArgsValue": {
+                    "gdpr_true": true,
+                    "gdpr_false": false
+                }
+            }
+        ],
+        "us_p": [
+            "IAB Framework"
+        ],
+        "coppa": [
+            {
+                "apiClazzName": "com.ogury.sdk.Ogury",
+                "apiMethodName": "applyChildPrivacy",
+                "policyArgs": null,
+                "consentArgsIndex": 0,
+                "consentArgsValue": {
+                    "coppa_true": 2,
+                    "coppa_false": null
+                }
+            }
+        ]
+    },
+    "Chartboost": {
+        "init": [
+            {
+                "apiClazzName": "com.chartboost.sdk.Chartboost",
+                "apiMethodName": "startWithAppId",
+                "policyArgs": null,
+                "consentArgsIndex": null,
+                "consentArgsValue": null
+            }
+        ],
+        "gdpr": [
+            {
+                "apiClazzName": "com.chartboost.sdk.Chartboost",
+                "apiMethodName": "addDataUseConsent",
+                "policyArgs": null,
+                "consentArgsIndex": 1,
+                "consentArgsValue": {
+                    "gdpr_true": "new GDPR(GDPR.GDPR_CONSENT.BEHAVIORAL)",
+                    "gdpr_false": "new GDPR(GDPR.GDPR_CONSENT.NON_BEHAVIORAL)"
+                }
+            }
+        ],
+        "us_p": [
+            {
+                "apiClazzName": "com.chartboost.sdk.Chartboost",
+                "apiMethodName": "addDataUseConsent",
+                "policyArgs": null,
+                "consentArgsIndex": 1,
+                "consentArgsValue": {
+                    "usp_true": "new CCPA(CCPA.CCPA_CONSENT.OPT_IN_SALE)",
+                    "usp_false": "new CCPA(CCPA.CCPA_CONSENT.OPT_OUT_SALE)"
+                }
+            }
+        ],
+        "coppa": [
+            {
+                "apiClazzName": "com.chartboost.sdk.Chartboost",
+                "apiMethodName": "addDataUseConsent",
+                "policyArgs": null,
+                "consentArgsIndex": 1,
+                "consentArgsValue": {
+                    "coppa_true": "new COPPA(true)",
+                    "coppa_false": "new COPPA(false)"
+                }
+            }
+        ]
+    },
+    "Fyber": {
+        "init": [
+            {
+                "apiClazzName": "com.fyber.inneractive.sdk.external.InneractiveAdManager",
+                "apiMethodName": "initialize",
+                "policyArgs": null,
+                "consentArgsIndex": null,
+                "consentArgsValue": null
+            },
+            {
+                "apiClazzName": "com.fyber.inneractive.sdk.external.InneractiveAdManager",
+                "apiMethodName": "initialize",
+                "policyArgs": null,
+                "consentArgsIndex": null,
+                "consentArgsValue": null
+            }
+        ],
+        "gdpr": [
+            {
+                "apiClazzName": "com.fyber.inneractive.sdk.external.InneractiveAdManager",
+                "apiMethodName": "setGdprConsent",
+                "policyArgs": null,
+                "consentArgsIndex": 0,
+                "consentArgsValue": {
+                    "gdpr_true": true,
+                    "gdpr_false": false
+                }
+            },
+            {
+                "apiClazzName": "com.fyber.inneractive.sdk.external.InneractiveAdManager",
+                "apiMethodName": "setGdprConsent",
+                "policyArgs": null,
+                "consentArgsIndex": 0,
+                "consentArgsValue": {
+                    "gdpr_true": true,
+                    "gdpr_false": false
+                }
+            }
+        ],
+        "us_p": [
+            {
+                "apiClazzName": "com.fyber.inneractive.sdk.external.InneractiveAdManager",
+                "apiMethodName": "setUSPrivacyString",
+                "policyArgs": null,
+                "consentArgsIndex": 0,
+                "consentArgsValue": {
+                    "usp_true": "1YY-",
+                    "usp_false": "1YN-",
+                    "usp_unknown": "1---"
+                }
+            }
+        ],
+        "coppa": [
+            {
+                "apiClazzName": "com.fyber.inneractive.sdk.external.InneractiveAdManager",
+                "apiMethodName": "currentAudienceAppliesToCoppa",
+                "policyArgs": null,
+                "consentArgsIndex": null,
+                "consentArgsValue": null
+            }
+        ]
+    },
+    "Smaato": {
+        "init": [
+            {
+                "apiClazzName": "com.smaato.sdk.core.SmaatoSdk",
+                "apiMethodName": "init",
+                "policyArgs": null,
+                "consentArgsIndex": null,
+                "consentArgsValue": null
+            },
+            {
+                "apiClazzName": "com.smaato.sdk.core.SmaatoSdk",
+                "apiMethodName": "init",
+                "policyArgs": null,
+                "consentArgsIndex": null,
+                "consentArgsValue": null
+            },
+            {
+                "apiClazzName": "com.smaato.sdk.core.SmaatoSdk",
+                "apiMethodName": "init",
+                "policyArgs": null,
+                "consentArgsIndex": null,
+                "consentArgsValue": null
+            },
+            {
+                "apiClazzName": "com.smaato.sdk.core.SmaatoSdk",
+                "apiMethodName": "init",
+                "policyArgs": null,
+                "consentArgsIndex": null,
+                "consentArgsValue": null
+            }
+        ],
+        "gdpr": [
+            "IAB Framework"
+        ],
+        "us_p": [
+            "IAB Framework"
+        ],
+        "coppa": [
+            {
+                "apiClazzName": "com.smaato.sdk.core.SmaatoSdk",
+                "apiMethodName": "setCoppa",
+                "policyArgs": null,
+                "consentArgsIndex": 0,
+                "consentArgsValue": {
+                    "coppa_true": true,
+                    "coppa_false": false
+                }
+            }
+        ]
+    },
+    "MyTarget": {
+        "init": [],
+        "gdpr": [
+            {
+                "apiClazzName": "com.my.target.common.MyTargetPrivacy",
+                "apiMethodName": "setUserConsent",
+                "policyArgs": null,
+                "consentArgsIndex": 0,
+                "consentArgsValue": {
+                    "gdpr_true": true,
+                    "gdpr_false": false
+                }
+            }
+        ],
+        "us_p": [
+            {
+                "apiClazzName": "com.my.target.common.MyTargetPrivacy",
+                "apiMethodName": "setCcpaUserConsent",
+                "policyArgs": null,
+                "consentArgsIndex": 0,
+                "consentArgsValue": {
+                    "{\"usp_true": true,
+                    "usp_false": false
+                }
+            }
+        ],
+        "coppa": [
+            {
+                "apiClazzName": "com.my.target.common.MyTargetPrivacy",
+                "apiMethodName": "setUserAgeRestricted",
+                "policyArgs": null,
+                "consentArgsIndex": 0,
+                "consentArgsValue": {
+                    "coppa_true": true,
+                    "coppa_false": false
+                }
+            }
+        ]
+    },
+    "PubNative": {
+        "init": [
+            {
+                "apiClazzName": "net.pubnative.lite.sdk.HyBid",
+                "apiMethodName": "initialize",
+                "policyArgs": null,
+                "consentArgsIndex": null,
+                "consentArgsValue": null
+            },
+            {
+                "apiClazzName": "net.pubnative.lite.sdk.HyBid",
+                "apiMethodName": "initialize",
+                "policyArgs": null,
+                "consentArgsIndex": null,
+                "consentArgsValue": null
+            }
+        ],
+        "gdpr": [
+            {
+                "apiClazzName": "net.pubnative.lite.sdk.UserDataManager",
+                "apiMethodName": "setConsentState",
+                "policyArgs": null,
+                "consentArgsIndex": 0,
+                "consentArgsValue": {
+                    "gdpr_true": 1,
+                    "gdpr_false": 0
+                }
+            }
+        ],
+        "us_p": [
+            {
+                "apiClazzName": "net.pubnative.lite.sdk.UserDataManager",
+                "apiMethodName": "setIABUSPrivacyString",
+                "policyArgs": null,
+                "consentArgsIndex": 0,
+                "consentArgsValue": {
+                    "usp_true": "1YY-",
+                    "usp_false": "1YN-",
+                    "usp_unknown": "1---"
+                }
+            }
+        ],
+        "coppa": [
+            {
+                "apiClazzName": "net.pubnative.lite.sdk.HyBid",
+                "apiMethodName": "setCoppaEnabled",
+                "policyArgs": null,
+                "consentArgsIndex": 0,
+                "consentArgsValue": {
+                    "coppa_true": true,
+                    "coppa_false": false
+                }
+            }
+        ]
+    },
+    "Kidoz": {
+        "init": [
+            {
+                "apiClazzName": "com.kidoz.sdk.api.KidozSDK",
+                "apiMethodName": "initialize",
+                "policyArgs": null,
+                "consentArgsIndex": null,
+                "consentArgsValue": null
+            },
+            {
+                "apiClazzName": "com.kidoz.sdk.api.KidozSDK",
+                "apiMethodName": "initialize",
+                "policyArgs": null,
+                "consentArgsIndex": null,
+                "consentArgsValue": null
+            }
+        ],
+        "gdpr": [],
+        "us_p": [],
+        "coppa": []
+    },
+    "AwesomeAds": {
+        "init": [
+            {
+                "apiClazzName": "tv.superawesome.sdk.publisher.AwesomeAds",
+                "apiMethodName": "init",
+                "policyArgs": null,
+                "consentArgsIndex": null,
+                "consentArgsValue": null
+            },
+            {
+                "apiClazzName": "tv.superawesome.sdk.publisher.AwesomeAds",
+                "apiMethodName": "init",
+                "policyArgs": null,
+                "consentArgsIndex": null,
+                "consentArgsValue": null
+            },
+            {
+                "apiClazzName": "tv.superawesome.sdk.publisher.AwesomeAds",
+                "apiMethodName": "init",
+                "policyArgs": null,
+                "consentArgsIndex": null,
+                "consentArgsValue": null
+            },
+            {
+                "apiClazzName": "tv.superawesome.sdk.publisher.AwesomeAds",
+                "apiMethodName": "init",
+                "policyArgs": null,
+                "consentArgsIndex": null,
+                "consentArgsValue": null
+            }
+        ],
+        "gdpr": [],
+        "us_p": [],
+        "coppa": []
+    },
+    "Criteo": {
+        "init": [
+            {
+                "apiClazzName": "com.criteo.publisher.Criteo$Builder",
+                "apiMethodName": "init",
+                "policyArgs": null,
+                "consentArgsIndex": null,
+                "consentArgsValue": null
+            }
+        ],
+        "gdpr": [
+            "IAB Framework"
+        ],
+        "us_p": [
+            "IAB Framework",
+            {
+                "apiClazzName": "com.criteo.publisher.Criteo",
+                "apiMethodName": "setUsPrivacyOptOut",
+                "policyArgs": null,
+                "consentArgsIndex": 0,
+                "consentArgsValue": {
+                    "usp_true": true,
+                    "usp_false": false
+                }
+            }
+        ],
+        "coppa": [
+            {
+                "apiClazzName": "com.criteo.publisher.Criteo",
+                "apiMethodName": "setTagForChildDirectedTreatment",
+                "policyArgs": null,
+                "consentArgsIndex": 0,
+                "consentArgsValue": {
+                    "coppa_true": true,
+                    "coppa_false": false
+                }
+            }
+        ]
+    },
+    "Tenjin": {
+        "init": [
+            {
+                "apiClazzName": "com.tenjin.android.TenjinSDK",
+                "apiMethodName": "connect",
+                "policyArgs": null,
+                "consentArgsIndex": null,
+                "consentArgsValue": null
+            },
+            {
+                "apiClazzName": "com.tenjin.android.TenjinSDK",
+                "apiMethodName": "connect",
+                "policyArgs": null,
+                "consentArgsIndex": null,
+                "consentArgsValue": null
+            },
+            {
+                "apiClazzName": "com.tenjin.android.TenjinSDK",
+                "apiMethodName": "connect",
+                "policyArgs": null,
+                "consentArgsIndex": null,
+                "consentArgsValue": null
+            }
+        ],
+        "gdpr": [
+            {
+                "apiClazzName": "com.tenjin.android.TenjinSDK",
+                "apiMethodName": "optIn",
+                "policyArgs": null,
+                "consentArgsIndex": null,
+                "consentArgsValue": {
+                    "gdpr_true": "call this api"
+                }
+            },
+            {
+                "apiClazzName": "com.tenjin.android.TenjinSDK",
+                "apiMethodName": "optOut",
+                "policyArgs": null,
+                "consentArgsIndex": null,
+                "consentArgsValue": {
+                    "gdpr_false": "call this api"
+                }
+            }
+        ],
+        "us_p": [],
+        "coppa": []
+    },
+    "Kochava": {
+        "init": [
+            {
+                "apiClazzName": "com.kochava.tracker.Tracker",
+                "apiMethodName": "startWithAppGuid",
+                "policyArgs": null,
+                "consentArgsIndex": null,
+                "consentArgsValue": null
+            },
+            {
+                "apiClazzName": "com.kochava.base.Tracker",
+                "apiMethodName": "configure",
+                "policyArgs": null,
+                "consentArgsIndex": null,
+                "consentArgsValue": null
+            }
+        ],
+        "gdpr": [
+            {
+                "apiClazzName": "com.kochava.base.Tracker",
+                "apiMethodName": "setConsentRequired",
+                "policyArgs": null,
+                "consentArgsIndex": 0,
+                "consentArgsValue": {
+                    "gdpr_enable": true,
+                    "gdpr_disable": false
+                }
+            },
+            {
+                "apiClazzName": "com.kochava.tracker.Tracker",
+                "apiMethodName": "setIntelligentConsentGranted",
+                "policyArgs": null,
+                "consentArgsIndex": 1,
+                "consentArgsValue": {
+                    "gdpr_true": true,
+                    "gdpr_false": false
+                }
+            },
+            {
+                "apiClazzName": "com.kochava.base.Tracker",
+                "apiMethodName": "setConsentGranted",
+                "policyArgs": null,
+                "consentArgsIndex": 1,
+                "consentArgsValue": {
+                    "gdpr_true": true,
+                    "gdpr_false": false
+                }
+            }
+        ],
+        "us_p": [
+            "IAB Framework"
+        ],
+        "coppa": []
+    },
+    "Appodeal": {
+        "init": [
+            {
+                "apiClazzName": "com.appodeal.ads.Appodeal",
+                "apiMethodName": "initialize",
+                "policyArgs": null,
+                "consentArgsIndex": null,
+                "consentArgsValue": null
+            },
+            {
+                "apiClazzName": "com.appodeal.ads.Appodeal",
+                "apiMethodName": "initialize",
+                "policyArgs": null,
+                "consentArgsIndex": null,
+                "consentArgsValue": null
+            }
+        ],
+        "gdpr": [
+            {
+                "apiClazzName": "com.appodeal.ads.Appodeal",
+                "apiMethodName": "updateGDPRUserConsent",
+                "policyArgs": null,
+                "consentArgsIndex": 0,
+                "consentArgsValue": {
+                    "gdpr_true": "GDPRUserConsent.Personalized",
+                    "gdpr_false": "GDPRUserConsent.NonPersonalized",
+                    "gdpr_unknown": "GDPRUserConsent.Unknown"
+                }
+            }
+        ],
+        "us_p": [
+            {
+                "apiClazzName": "com.appodeal.ads.Appodeal",
+                "apiMethodName": "updateCCPAUserConsent",
+                "policyArgs": null,
+                "consentArgsIndex": 0,
+                "consentArgsValue": {
+                    "usp_true": "CCPAUserConsent.OptIn",
+                    "usp_false": "CCPAUserConsent.OptOut",
+                    "usp_unknown": "CCPAUserConsent.Unknown"
+                }
+            }
+        ],
+        "coppa": [
+            {
+                "apiClazzName": "com.appodeal.ads.Appodeal",
+                "apiMethodName": "setChildDirectedTreatment",
+                "policyArgs": null,
+                "consentArgsIndex": 0,
+                "consentArgsValue": {
+                    "coppa_true": true,
+                    "coppa_false": false
+                }
+            }
+        ]
+    },
+    "Mintegral": {
+        "init": [
+            {
+                "apiClazzName": "com.mbridge.msdk.MBridgeSDK",
+                "apiMethodName": "init",
+                "policyArgs": null,
+                "consentArgsIndex": null,
+                "consentArgsValue": null
+            },
+            {
+                "apiClazzName": "com.mbridge.msdk.MBridgeSDK",
+                "apiMethodName": "init",
+                "policyArgs": null,
+                "consentArgsIndex": null,
+                "consentArgsValue": null
+            },
+            {
+                "apiClazzName": "com.mbridge.msdk.MBridgeSDK",
+                "apiMethodName": "init",
+                "policyArgs": null,
+                "consentArgsIndex": null,
+                "consentArgsValue": null
+            },
+            {
+                "apiClazzName": "com.mbridge.msdk.MBridgeSDK",
+                "apiMethodName": "init",
+                "policyArgs": null,
+                "consentArgsIndex": null,
+                "consentArgsValue": null
+            }
+        ],
+        "gdpr": [
+            {
+                "apiClazzName": "com.mbridge.msdk.MBridgeSDK",
+                "apiMethodName": "setConsentStatus",
+                "policyArgs": null,
+                "consentArgsIndex": 1,
+                "consentArgsValue": {
+                    "gdpr_true": 1,
+                    "gdpr_false": 0
+                }
+            }
+        ],
+        "us_p": [
+            {
+                "apiClazzName": "com.mbridge.msdk.MBridgeSDK",
+                "apiMethodName": "setDoNotTrackStatus",
+                "policyArgs": null,
+                "consentArgsIndex": 1,
+                "consentArgsValue": {
+                    "usp_true": true,
+                    "usp_false": false
+                }
+            },
+            {
+                "apiClazzName": "com.mbridge.msdk.MBridgeSDK",
+                "apiMethodName": "setDoNotTrackStatus",
+                "policyArgs": null,
+                "consentArgsIndex": 0,
+                "consentArgsValue": {
+                    "usp_true": true,
+                    "usp_false": false
+                }
+            }
+        ],
+        "coppa": [
+            {
+                "apiClazzName": "com.mbridge.msdk.MBridgeSDK",
+                "apiMethodName": "setCoppaStatus",
+                "policyArgs": null,
+                "consentArgsIndex": 1,
+                "consentArgsValue": {
+                    "coppa_true": 1,
+                    "coppa_false": 0
+                }
+            }
+        ]
+    },
+    "MobileAppTracking": {
+        "init": [
+            {
+                "apiClazzName": "com.mobileapptracker.MobileAppTracker",
+                "apiMethodName": "init",
+                "policyArgs": null,
+                "consentArgsIndex": null,
+                "consentArgsValue": null
+            }
+        ],
+        "gdpr": [],
+        "us_p": [],
+        "coppa": []
+    },
+    "adMost": {
+        "init": [
+            {
+                "apiClazzName": "admost.sdk.base.AdMost",
+                "apiMethodName": "init",
+                "policyArgs": null,
+                "consentArgsIndex": null,
+                "consentArgsValue": null
+            }
+        ],
+        "gdpr": [
+            {
+                "apiClazzName": "admost.sdk.base.AdMostConfiguration$Builder",
+                "apiMethodName": "setSubjectToGDPR",
+                "policyArgs": null,
+                "consentArgsIndex": 0,
+                "consentArgsValue": {
+                    "gdpr_true": true,
+                    "gdpr_false": "otherwise"
+                }
+            },
+            {
+                "apiClazzName": "admost.sdk.base.AdMostConfiguration$Builder",
+                "apiMethodName": "setUserConsent",
+                "policyArgs": null,
+                "consentArgsIndex": 0,
+                "consentArgsValue": {
+                    "gdpr_true": true,
+                    "gdpr_false": "otherwise"
+                }
+            }
+        ],
+        "us_p": [
+            {
+                "apiClazzName": "admost.sdk.base.AdMostConfiguration$Builder",
+                "apiMethodName": "setSubjectToCCPA",
+                "policyArgs": null,
+                "consentArgsIndex": 0,
+                "consentArgsValue": {
+                    "usp_true": true,
+                    "usp_false": "otherwise"
+                }
+            },
+            {
+                "apiClazzName": "admost.sdk.base.AdMostConfiguration$Builder",
+                "apiMethodName": "setUserConsent",
+                "policyArgs": null,
+                "consentArgsIndex": 0,
+                "consentArgsValue": {
+                    "usp_true": true,
+                    "usp_false": "otherwise"
+                }
+            }
+        ],
+        "coppa": [
+            {
+                "apiClazzName": "admost.sdk.base.AdMostConfiguration$Builder",
+                "apiMethodName": "setUserChild",
+                "policyArgs": null,
+                "consentArgsIndex": 0,
+                "consentArgsValue": {
+                    "coppa_true": true,
+                    "coppa_false": false
+                }
+            }
+        ]
+    },
+    "MobVista": {
+        "init": [],
+        "gdpr": [],
+        "us_p": [],
+        "coppa": []
+    },
+    "Millennial Media": {
+        "init": [
+            {
+                "apiClazzName": "com.millennialmedia.MMSDK",
+                "apiMethodName": "initialize",
+                "policyArgs": null,
+                "consentArgsIndex": null,
+                "consentArgsValue": null
+            },
+            {
+                "apiClazzName": "com.millennialmedia.MMSDK",
+                "apiMethodName": "initialize",
+                "policyArgs": null,
+                "consentArgsIndex": null,
+                "consentArgsValue": null
+            },
+            {
+                "apiClazzName": "com.millennialmedia.MMSDK",
+                "apiMethodName": "initialize",
+                "policyArgs": null,
+                "consentArgsIndex": null,
+                "consentArgsValue": null
+            }
+        ],
+        "gdpr": [
+            {
+                "apiClazzName": "com.millennialmedia.MMSDK",
+                "apiMethodName": "setConsentRequired",
+                "policyArgs": null,
+                "consentArgsIndex": 0,
+                "consentArgsValue": {
+                    "gdpr_true": true,
+                    "gdpr_false": false
+                }
+            }
+        ],
+        "us_p": [],
+        "coppa": []
+    },
+    "Supersonic": {
+        "init": [
+            {
+                "apiClazzName": "com.supersonic.wisdom.library.api.WisdomSDK",
+                "apiMethodName": "init",
+                "policyArgs": null,
+                "consentArgsIndex": null,
+                "consentArgsValue": null
+            }
+        ],
+        "gdpr": [],
+        "us_p": [],
+        "coppa": []
+    },
+    "AppNext": {
+        "init": [
+            {
+                "apiClazzName": "com.appnext.base.Appnext",
+                "apiMethodName": "init",
+                "policyArgs": null,
+                "consentArgsIndex": null,
+                "consentArgsValue": null
+            }
+        ],
+        "gdpr": [
+            {
+                "apiClazzName": "com.appnext.base.Appnext",
+                "apiMethodName": "setParam",
+                "policyArgs": {
+                    "0": "consent"
+                },
+                "consentArgsIndex": 1,
+                "consentArgsValue": {
+                    "gdpr_true": "true",
+                    "gdpr_false": "false"
+                }
+            }
+        ],
+        "us_p": [],
+        "coppa": []
+    },
+    "AppBrain SDK": {
+        "init": [
+            {
+                "apiClazzName": "com.appbrain.AppBrain",
+                "apiMethodName": "init",
+                "policyArgs": null,
+                "consentArgsIndex": null,
+                "consentArgsValue": null
+            }
+        ],
+        "gdpr": [],
+        "us_p": [],
+        "coppa": []
+    },
+    "Nend": {
+        "init": [],
+        "gdpr": [],
+        "us_p": [],
+        "coppa": []
+    },
+    "Smart AdServer": {
+        "init": [],
+        "gdpr": [
+            "IAB Framework"
+        ],
+        "us_p": [
+            "IAB Framework"
+        ],
+        "coppa": []
+    },
+    "Pollfish": {
+        "init": [
+            {
+                "apiClazzName": "com.pollfish.Pollfish",
+                "apiMethodName": "initWith",
+                "policyArgs": null,
+                "consentArgsIndex": null,
+                "consentArgsValue": null
+            }
+        ],
+        "gdpr": [],
+        "us_p": [],
+        "coppa": []
+    },
+    "Nielsen": {
+        "init": [],
+        "gdpr": [],
+        "us_p": [],
+        "coppa": []
+    },
+    "Outbrain": {
+        "init": [
+            {
+                "apiClazzName": "com.outbrain.OBSDK.Outbrain",
+                "apiMethodName": "register",
+                "policyArgs": null,
+                "consentArgsIndex": null,
+                "consentArgsValue": null
+            }
+        ],
+        "gdpr": [
+            "IAB Framework"
+        ],
+        "us_p": [
+            "IAB Framework"
+        ],
+        "coppa": []
+    },
+    "HeyZap": {
+        "init": [
+            {
+                "apiClazzName": "com.heyzap.sdk.ads.HeyzapAds",
+                "apiMethodName": "start",
+                "policyArgs": null,
+                "consentArgsIndex": null,
+                "consentArgsValue": null
+            },
+            {
+                "apiClazzName": "com.heyzap.sdk.ads.HeyzapAds",
+                "apiMethodName": "start",
+                "policyArgs": null,
+                "consentArgsIndex": null,
+                "consentArgsValue": null
+            },
+            {
+                "apiClazzName": "com.heyzap.sdk.ads.HeyzapAds",
+                "apiMethodName": "start",
+                "policyArgs": null,
+                "consentArgsIndex": null,
+                "consentArgsValue": null
+            },
+            {
+                "apiClazzName": "com.heyzap.sdk.ads.HeyzapAds",
+                "apiMethodName": "start",
+                "policyArgs": null,
+                "consentArgsIndex": null,
+                "consentArgsValue": null
+            }
+        ],
+        "gdpr": [
+            {
+                "apiClazzName": "com.heyzap.sdk.ads.HeyzapAds",
+                "apiMethodName": "setGdprConsent",
+                "policyArgs": null,
+                "consentArgsIndex": 0,
+                "consentArgsValue": {
+                    "gdpr_true": true,
+                    "gdpr_false": false
+                }
+            }
+        ],
+        "us_p": [],
+        "coppa": []
+    },
+    "TappX": {
+        "init": [],
+        "gdpr": [
+            {
+                "apiClazzName": "com.tappx.sdk.android.TappxPrivacyManager",
+                "apiMethodName": "grantPersonalInfoConsent",
+                "policyArgs": null,
+                "consentArgsIndex": null,
+                "consentArgsValue": {
+                    "gdpr_true": null
+                }
+            },
+            {
+                "apiClazzName": "com.tappx.sdk.android.TappxPrivacyManager",
+                "apiMethodName": "setGDPRConsent",
+                "policyArgs": null,
+                "consentArgsIndex": null,
+                "consentArgsValue": {
+                    "gdpr_true": null
+                }
+            },
+            {
+                "apiClazzName": "com.tappx.sdk.android.TappxPrivacyManager",
+                "apiMethodName": "denyPersonalInfoConsent",
+                "policyArgs": null,
+                "consentArgsIndex": null,
+                "consentArgsValue": {
+                    "gdpr_false": null
+                }
+            }
+        ],
+        "us_p": [
+            {
+                "apiClazzName": "com.tappx.sdk.android.TappxPrivacyManager",
+                "apiMethodName": "setUSPrivacy",
+                "policyArgs": null,
+                "consentArgsIndex": 0,
+                "consentArgsValue": null
+            }
+        ],
+        "coppa": [
+            {
+                "apiClazzName": "com.tappx.sdk.android.Tappx",
+                "apiMethodName": "setCoppaCompliance",
+                "policyArgs": null,
+                "consentArgsIndex": 0,
+                "consentArgsValue": {
+                    "coppa_true": true,
+                    "coppa_false": false
+                }
+            }
+        ]
+    },
+    "TNK": {
+        "init": [],
+        "gdpr": [
+            {
+                "apiClazzName": "com.tnkfactory.ad.AdConfiguration",
+                "apiMethodName": "setGDPRConsent",
+                "policyArgs": null,
+                "consentArgsIndex": 1,
+                "consentArgsValue": {
+                    "gdpr_true": true,
+                    "gdpr_false": false
+                }
+            }
+        ],
+        "us_p": [],
+        "coppa": [
+            {
+                "apiClazzName": "com.tnkfactory.ad.AdConfiguration",
+                "apiMethodName": "setCOPPA",
+                "policyArgs": null,
+                "consentArgsIndex": 1,
+                "consentArgsValue": {
+                    "coppa_true": true,
+                    "coppa_false": false
+                }
+            }
+        ]
+    },
+    "FreeWheel": {
+        "init": [
+            {
+                "apiClazzName": "tv.freewheel.ad.AdManager",
+                "apiMethodName": "getInstance",
+                "policyArgs": null,
+                "consentArgsIndex": null,
+                "consentArgsValue": null
+            }
+        ],
+        "gdpr": [
+            {
+                "apiClazzName": "tv.freewheel.ad.request.config.ConsentConfiguratons.GDPRConsentConfiguration",
+                "apiMethodName": "$init",
+                "policyArgs": null,
+                "consentArgsIndex": 0,
+                "consentArgsValue": {
+                    "gdpr_true": true,
+                    "gdpr_false": false
+                }
+            }
+        ],
+        "us_p": [
+            "IAB Framework"
+        ],
+        "coppa": []
+    },
+    "Daum ads": {
+        "init": [
+            {
+                "apiClazzName": "net.daum.android.map.MapView",
+                "apiMethodName": "init",
+                "policyArgs": null,
+                "consentArgsIndex": null,
+                "consentArgsValue": null
+            }
+        ],
+        "gdpr": [],
+        "us_p": [],
+        "coppa": []
+    },
+    "Tapdaq": {
+        "init": [],
+        "gdpr": [],
+        "us_p": [],
+        "coppa": []
+    },
+    "DU": {
+        "init": [],
+        "gdpr": [],
+        "us_p": [],
+        "coppa": []
+    },
+    "AerServ": {
+        "init": [
+            {
+                "apiClazzName": "com.aerserv.sdk.AerServSdk",
+                "apiMethodName": "init",
+                "policyArgs": null,
+                "consentArgsIndex": null,
+                "consentArgsValue": null
+            }
+        ],
+        "gdpr": [
+            {
+                "apiClazzName": "com.aerserv.sdk.AerServSdk",
+                "apiMethodName": "setGdprConsentFlag",
+                "policyArgs": null,
+                "consentArgsIndex": 1,
+                "consentArgsValue": {
+                    "gdpr_true": true,
+                    "gdpr_false": false
+                }
+            }
+        ],
+        "us_p": [],
+        "coppa": []
+    },
+    "adPOPcorn": {
+        "init": [],
+        "gdpr": [],
+        "us_p": [],
+        "coppa": []
+    },
+    "LeadBolt": {
+        "init": [],
+        "gdpr": [],
+        "us_p": [],
+        "coppa": []
+    },
+    "AdLib": {
+        "init": [],
+        "gdpr": [],
+        "us_p": [],
+        "coppa": []
+    },
+    "tapcore": {
+        "init": [],
+        "gdpr": [],
+        "us_p": [],
+        "coppa": []
+    },
+    "Receptiv": {
+        "init": [],
+        "gdpr": [],
+        "us_p": [],
+        "coppa": []
+    },
+    "MobFox": {
+        "init": [],
+        "gdpr": [
+            "IAB Framework"
+        ],
+        "us_p": [
+            "IAB Framework"
+        ],
+        "coppa": []
+    },
+    "Revmob": {
+        "init": [
+            {
+                "apiClazzName": "com.revmob.RevMob",
+                "apiMethodName": "start",
+                "policyArgs": null,
+                "consentArgsIndex": null,
+                "consentArgsValue": null
+            },
+            {
+                "apiClazzName": "com.revmob.RevMob",
+                "apiMethodName": "start",
+                "policyArgs": null,
+                "consentArgsIndex": null,
+                "consentArgsValue": null
+            }
+        ],
+        "gdpr": [],
+        "us_p": [],
+        "coppa": []
+    },
+    "mobileCore": {
+        "init": [],
+        "gdpr": [
+            "IAB Framework"
+        ],
+        "us_p": [
+            "IAB Framework"
+        ],
+        "coppa": [
+            "IAB Framework"
+        ]
+    },
+    "AirPush": {
+        "init": [],
+        "gdpr": [
+            "IAB Framework"
+        ],
+        "us_p": [
+            "IAB Framework"
+        ],
+        "coppa": [
+            "IAB Framework"
+        ]
+    },
+    "AdWhirl": {
+        "init": [
+            {
+                "apiClazzName": "com.adwhirl.AdWhirlLayout",
+                "apiMethodName": "init",
+                "policyArgs": null,
+                "consentArgsIndex": null,
+                "consentArgsValue": null
+            }
+        ],
+        "gdpr": [],
+        "us_p": [],
+        "coppa": []
+    },
+    "AdBuddiz": {
+        "init": [],
+        "gdpr": [],
+        "us_p": [],
+        "coppa": []
+    },
+    "GetJar": {
+        "init": [],
+        "gdpr": [],
+        "us_p": [],
+        "coppa": []
+    },
+    "YuMe": {
+        "init": [],
+        "gdpr": [],
+        "us_p": [],
+        "coppa": []
+    },
+    "Vpon": {
+        "init": [
+            {
+                "apiClazzName": "com.vpon.ads.VponMobileAds",
+                "apiMethodName": "initialize",
+                "policyArgs": null,
+                "consentArgsIndex": null,
+                "consentArgsValue": null
+            }
+        ],
+        "gdpr": [],
+        "us_p": [],
+        "coppa": []
+    },
+    "Avocarrot": {
+        "init": [],
+        "gdpr": [],
+        "us_p": [],
+        "coppa": []
+    },
+    "Metaps": {
+        "init": [],
+        "gdpr": [],
+        "us_p": [],
+        "coppa": []
+    },
+    "NativeX": {
+        "init": [
+            {
+                "apiClazzName": "com.nativex.monetization.MonetizationSDK",
+                "apiMethodName": "initialize",
+                "policyArgs": null,
+                "consentArgsIndex": null,
+                "consentArgsValue": null
+            },
+            {
+                "apiClazzName": "com.nativex.monetization.MonetizationSDK",
+                "apiMethodName": "initialize",
+                "policyArgs": null,
+                "consentArgsIndex": null,
+                "consentArgsValue": null
+            }
+        ],
+        "gdpr": [],
+        "us_p": [],
+        "coppa": []
+    },
+    "Noqoush AdFalcon": {
+        "init": [
+            {
+                "apiClazzName": "com.noqoush.adfalcon.android.sdk.ADFView",
+                "apiMethodName": "initialize",
+                "policyArgs": null,
+                "consentArgsIndex": null,
+                "consentArgsValue": null
+            }
+        ],
+        "gdpr": [],
+        "us_p": [],
+        "coppa": []
+    },
+    "display.io": {
+        "init": [
+            {
+                "apiClazzName": "io.display.sdk.Controller",
+                "apiMethodName": "init",
+                "policyArgs": null,
+                "consentArgsIndex": null,
+                "consentArgsValue": null
+            },
+            {
+                "apiClazzName": "io.display.sdk.Controller",
+                "apiMethodName": "init",
+                "policyArgs": null,
+                "consentArgsIndex": null,
+                "consentArgsValue": null
+            }
+        ],
+        "gdpr": [],
+        "us_p": [],
+        "coppa": []
+    },
+    "Sponsorpay": {
+        "init": [],
+        "gdpr": [],
+        "us_p": [],
+        "coppa": []
+    },
+    "Upsight": {
+        "init": [
+            {
+                "apiClazzName": "com.upsight.unity.UpsightPlugin",
+                "apiMethodName": "init",
+                "policyArgs": null,
+                "consentArgsIndex": null,
+                "consentArgsValue": null
+            }
+        ],
+        "gdpr": [],
+        "us_p": [],
+        "coppa": []
+    },
+    "YouAppi": {
+        "init": [
+            {
+                "apiClazzName": "com.youappi.sdk.YouAPPi",
+                "apiMethodName": "init",
+                "policyArgs": null,
+                "consentArgsIndex": null,
+                "consentArgsValue": null
+            }
+        ],
+        "gdpr": [
+            {
+                "apiClazzName": "com.youappi.sdk.YouAPPi",
+                "apiMethodName": "init",
+                "policyArgs": null,
+                "consentArgsIndex": 2,
+                "consentArgsValue": {
+                    "gdpr_true": true,
+                    "gdpr_false": false
+                }
+            }
+        ],
+        "us_p": [],
+        "coppa": []
+    },
+    "Adstir": {
+        "init": [],
+        "gdpr": [],
+        "us_p": [],
+        "coppa": []
+    },
+    "AppDriver": {
+        "init": [],
+        "gdpr": [],
+        "us_p": [],
+        "coppa": []
+    },
+    "AdMarvel": {
+        "init": [],
+        "gdpr": [],
+        "us_p": [],
+        "coppa": []
+    },
+    "Adlantis": {
+        "init": [],
+        "gdpr": [],
+        "us_p": [],
+        "coppa": []
+    },
+    "Fractional Media": {
+        "init": [],
+        "gdpr": [],
+        "us_p": [],
+        "coppa": []
+    },
+    "Conversant": {
+        "init": [],
+        "gdpr": [],
+        "us_p": [],
+        "coppa": []
+    },
+    "Kiip": {
+        "init": [
+            {
+                "apiClazzName": "com.kiip.KiipPlugin",
+                "apiMethodName": "init",
+                "policyArgs": null,
+                "consentArgsIndex": null,
+                "consentArgsValue": null
+            }
+        ],
+        "gdpr": [],
+        "us_p": [],
+        "coppa": []
+    },
+    "OpenX": {
+        "init": [],
+        "gdpr": [],
+        "us_p": [],
+        "coppa": []
+    },
+    "Burstly": {
+        "init": [
+            {
+                "apiClazzName": "com.burstly.lib.BurstlySdk",
+                "apiMethodName": "init",
+                "policyArgs": null,
+                "consentArgsIndex": null,
+                "consentArgsValue": null
+            }
+        ],
+        "gdpr": [],
+        "us_p": [],
+        "coppa": []
+    },
+    "AmoAd": {
+        "init": [
+            {
+                "apiClazzName": "com.amoad.amoadsdk.AMoAdSdk",
+                "apiMethodName": "initAdsInfo",
+                "policyArgs": null,
+                "consentArgsIndex": null,
+                "consentArgsValue": null
+            }
+        ],
+        "gdpr": [],
+        "us_p": [],
+        "coppa": []
+    },
+    "Jumptap": {
+        "init": [],
+        "gdpr": [],
+        "us_p": [],
+        "coppa": []
+    },
+    "Cheetah Mobile": {
+        "init": [],
+        "gdpr": [],
+        "us_p": [],
+        "coppa": []
+    },
+    "MdotM": {
+        "init": [],
+        "gdpr": [],
+        "us_p": [],
+        "coppa": []
+    },
+    "WiYun": {
+        "init": [
+            {
+                "apiClazzName": "com.wiyun.engine.chipmunk.Body",
+                "apiMethodName": "init",
+                "policyArgs": null,
+                "consentArgsIndex": null,
+                "consentArgsValue": null
+            }
+        ],
+        "gdpr": [],
+        "us_p": [],
+        "coppa": []
+    },
+    "MobClix": {
+        "init": [],
+        "gdpr": [],
+        "us_p": [],
+        "coppa": []
+    },
+    "AdAd": {
+        "init": [],
+        "gdpr": [],
+        "us_p": [],
+        "coppa": []
+    },
+    "LiveRail": {
+        "init": [],
+        "gdpr": [],
+        "us_p": [],
+        "coppa": []
+    },
+    "mediba ad": {
+        "init": [],
+        "gdpr": [],
+        "us_p": [],
+        "coppa": []
+    },
+    "YouMi": {
+        "init": [
+            {
+                "apiClazzName": "net.youmi.overseas.android.YoumiOffersWallSdk",
+                "apiMethodName": "init",
+                "policyArgs": null,
+                "consentArgsIndex": null,
+                "consentArgsValue": null
+            }
+        ],
+        "gdpr": [],
+        "us_p": [],
+        "coppa": []
+    },
+    "Ampiri": {
+        "init": [],
+        "gdpr": [],
+        "us_p": [],
+        "coppa": []
+    },
+    "Tap for Tap": {
+        "init": [
+            {
+                "apiClazzName": "com.tapfortap.TapForTap",
+                "apiMethodName": "initialize",
+                "policyArgs": null,
+                "consentArgsIndex": null,
+                "consentArgsValue": null
+            },
+            {
+                "apiClazzName": "com.tapfortap.TapForTap",
+                "apiMethodName": "initialize",
+                "policyArgs": null,
+                "consentArgsIndex": null,
+                "consentArgsValue": null
+            },
+            {
+                "apiClazzName": "com.tapfortap.TapForTap",
+                "apiMethodName": "initialize",
+                "policyArgs": null,
+                "consentArgsIndex": null,
+                "consentArgsValue": null
+            }
+        ],
+        "gdpr": [],
+        "us_p": [],
+        "coppa": []
+    },
+    "byyd": {
+        "init": [],
+        "gdpr": [],
+        "us_p": [],
+        "coppa": []
+    },
+    "MobPartner": {
+        "init": [],
+        "gdpr": [],
+        "us_p": [],
+        "coppa": []
+    },
+    "Swelen": {
+        "init": [],
+        "gdpr": [],
+        "us_p": [],
+        "coppa": []
+    },
+    "VServ": {
+        "init": [],
+        "gdpr": [],
+        "us_p": [],
+        "coppa": []
+    },
+    "Komli Mobile (aka ZestAdz)": {
+        "init": [],
+        "gdpr": [],
+        "us_p": [],
+        "coppa": []
+    },
+    "Inneractive": {
+        "init": [],
+        "gdpr": [
+            {
+                "apiClazzName": "com.fyber.fairbid.ads.OfferWall",
+                "apiMethodName": "setConsent",
+                "policyArgs": null,
+                "consentArgsIndex": 0,
+                "consentArgsValue": null
+            },
+            {
+                "apiClazzName": "com.fyber.fairbid.sdk.privacy.OfferWallPrivacyConsent$GDPR",
+                "apiMethodName": "$init",
+                "policyArgs": null,
+                "consentArgsIndex": 0,
+                "consentArgsValue": {
+                    "gdpr_true": true,
+                    "gdpr_false": false
+                }
+            }
+        ],
+        "us_p": [
+            {
+                "apiClazzName": "com.fyber.fairbid.ads.OfferWall",
+                "apiMethodName": "setConsent",
+                "policyArgs": null,
+                "consentArgsIndex": 0,
+                "consentArgsValue": null
+            },
+            {
+                "apiClazzName": "com.fyber.fairbid.sdk.privacy.OfferWallPrivacyConsent$CCPA",
+                "apiMethodName": "$init",
+                "policyArgs": null,
+                "consentArgsIndex": 0,
+                "consentArgsValue": {
+                    "usp_true": "1YNN",
+                    "usp_false": "otherwise"
+                }
+            }
+        ],
+        "coppa": []
+    },
+    "Axonix": {
+        "init": [],
+        "gdpr": [],
+        "us_p": [],
+        "coppa": []
+    },
+    "Medialets": {
+        "init": [],
+        "gdpr": [],
+        "us_p": [],
+        "coppa": []
+    },
+    "Appsfire": {
+        "init": [],
+        "gdpr": [],
+        "us_p": [],
+        "coppa": []
+    },
+    "Ligatus": {
+        "init": [],
+        "gdpr": [],
+        "us_p": [],
+        "coppa": []
+    },
+    "Rhythm Premium Mobile Video Advertising": {
+        "init": [],
+        "gdpr": [],
+        "us_p": [],
+        "coppa": []
+    },
+    "Pocket Change": {
+        "init": [],
+        "gdpr": [],
+        "us_p": [],
+        "coppa": []
+    },
+    "Mediba Admaker": {
+        "init": [],
+        "gdpr": [],
+        "us_p": [],
+        "coppa": []
+    },
+    "Nexage": {
+        "init": [],
+        "gdpr": [],
+        "us_p": [],
+        "coppa": []
+    },
+    "Madvertise": {
+        "init": [],
+        "gdpr": [],
+        "us_p": [],
+        "coppa": []
+    },
+    "Lifestreet": {
+        "init": [],
+        "gdpr": [],
+        "us_p": [],
+        "coppa": []
+    },
+    "TapIt": {
+        "init": [],
+        "gdpr": [],
+        "us_p": [],
+        "coppa": []
+    },
+    "Cauly Ads": {
+        "init": [],
+        "gdpr": [],
+        "us_p": [],
+        "coppa": [
+            {
+                "apiClazzName": "com.fsn.cauly.CaulyAdInfoBuilder",
+                "apiMethodName": "tagForChildDirectedTreatment",
+                "policyArgs": null,
+                "consentArgsIndex": 0,
+                "consentArgsValue": {
+                    "coppa_true": true,
+                    "coppa_false": false
+                }
+            }
+        ]
+    },
+    "SendDroid": {
+        "init": [],
+        "gdpr": [],
+        "us_p": [],
+        "coppa": []
+    },
+    "mOcean": {
+        "init": [],
+        "gdpr": [],
+        "us_p": [],
+        "coppa": []
+    },
+    "AdsMogo": {
+        "init": [
+            {
+                "apiClazzName": "com.adsmogo.a.a",
+                "apiMethodName": "initialize",
+                "policyArgs": null,
+                "consentArgsIndex": null,
+                "consentArgsValue": null
+            }
+        ],
+        "gdpr": [],
+        "us_p": [],
+        "coppa": []
+    },
+    "Bee7": {
+        "init": [],
+        "gdpr": [],
+        "us_p": [],
+        "coppa": []
+    },
+    "VDopia": {
+        "init": [],
+        "gdpr": [],
+        "us_p": [],
+        "coppa": []
+    },
+    "Tapcontext": {
+        "init": [
+            {
+                "apiClazzName": "com.tapcontext.TapContextSDK",
+                "apiMethodName": "initialize",
+                "policyArgs": null,
+                "consentArgsIndex": null,
+                "consentArgsValue": null
+            },
+            {
+                "apiClazzName": "com.tapcontext.TapContextSDK",
+                "apiMethodName": "initialize",
+                "policyArgs": null,
+                "consentArgsIndex": null,
+                "consentArgsValue": null
+            }
+        ],
+        "gdpr": [],
+        "us_p": [],
+        "coppa": []
+    },
+    "MobWIN": {
+        "init": [],
+        "gdpr": [],
+        "us_p": [],
+        "coppa": []
+    },
+    "TapSense": {
+        "init": [],
+        "gdpr": [],
+        "us_p": [],
+        "coppa": []
+    },
+    "AdFlex": {
+        "init": [],
+        "gdpr": [],
+        "us_p": [],
+        "coppa": []
+    },
+    "SilverMob": {
+        "init": [
+            {
+                "apiClazzName": "com.silvermob.sdk.AdManager",
+                "apiMethodName": "initSdk",
+                "policyArgs": null,
+                "consentArgsIndex": null,
+                "consentArgsValue": null
+            }
+        ],
+        "gdpr": [],
+        "us_p": [],
+        "coppa": []
+    },
+    "Digital Turbine": {
+        "init": [
+            {
+                "apiClazzName": "com.fyber.fairbid.ads.OfferWall",
+                "apiMethodName": "start",
+                "policyArgs": null,
+                "consentArgsIndex": null,
+                "consentArgsValue": null
+            },
+            {
+                "apiClazzName": "com.fyber.fairbid.ads.OfferWall",
+                "apiMethodName": "start",
+                "policyArgs": null,
+                "consentArgsIndex": null,
+                "consentArgsValue": null
+            },
+            {
+                "apiClazzName": "com.fyber.fairbid.ads.OfferWall",
+                "apiMethodName": "start",
+                "policyArgs": null,
+                "consentArgsIndex": null,
+                "consentArgsValue": null
+            }
+        ],
+        "gdpr": [
+            {
+                "apiClazzName": "com.fyber.fairbid.sdk.privacy.OfferWallPrivacyConsent$GDPR",
+                "apiMethodName": "$init",
+                "policyArgs": null,
+                "consentArgsIndex": 0,
+                "consentArgsValue": {
+                    "gdpr_true": true,
+                    "gdpr_false": false
+                }
+            },
+            {
+                "apiClazzName": "com.fyber.fairbid.ads.OfferWall",
+                "apiMethodName": "setConsent",
+                "policyArgs": null,
+                "consentArgsIndex": 0,
+                "consentArgsValue": null
+            }
+        ],
+        "us_p": [
+            {
+                "apiClazzName": "com.fyber.fairbid.ads.OfferWall",
+                "apiMethodName": "setConsent",
+                "policyArgs": null,
+                "consentArgsIndex": 0,
+                "consentArgsValue": null
+            },
+            {
+                "apiClazzName": "com.fyber.fairbid.sdk.privacy.OfferWallPrivacyConsent$CCPA",
+                "apiMethodName": "$init",
+                "policyArgs": null,
+                "consentArgsIndex": 0,
+                "consentArgsValue": {
+                    "usp_true": "1YNN"
+                }
+            }
+        ],
+        "coppa": []
+    },
+    "LiquidM": {
+        "init": [],
+        "gdpr": [],
+        "us_p": [],
+        "coppa": []
+    },
+    "adSage": {
+        "init": [],
+        "gdpr": [],
+        "us_p": [],
+        "coppa": []
+    },
+    "Adwo": {
+        "init": [],
+        "gdpr": [],
+        "us_p": [],
+        "coppa": []
+    },
+    "domob": {
+        "init": [],
+        "gdpr": [],
+        "us_p": [],
+        "coppa": []
+    },
+    "Madhouse SmartMAD": {
+        "init": [],
+        "gdpr": [],
+        "us_p": [],
+        "coppa": []
+    },
+    "Phunware Advertising": {
+        "init": [],
+        "gdpr": [],
+        "us_p": [],
+        "coppa": []
+    },
+    "Hunt Mobile Ads": {
+        "init": [],
+        "gdpr": [],
+        "us_p": [],
+        "coppa": []
+    },
+    "WAPS": {
+        "init": [],
+        "gdpr": [],
+        "us_p": [],
+        "coppa": []
+    },
+    "AdIQuity": {
+        "init": [],
+        "gdpr": [],
+        "us_p": [],
+        "coppa": []
+    },
+    "Mobeleader": {
+        "init": [],
+        "gdpr": [],
+        "us_p": [],
+        "coppa": []
+    },
+    "Quattro Wireless Ads": {
+        "init": [],
+        "gdpr": [],
+        "us_p": [],
+        "coppa": []
+    },
+    "Open Measurement": {
+        "init": [],
+        "gdpr": [],
+        "us_p": [],
+        "coppa": []
+    },
+    "Amazon Mobile Ads": {
+        "init": [],
+        "gdpr": [
+            {
+                "apiClazzName": "com.amazon.device.ads.AdRegistration",
+                "apiMethodName": "setConsentStatus",
+                "policyArgs": null,
+                "consentArgsIndex": 0,
+                "consentArgsValue": {
+                    "gdpr_true": 1,
+                    "gdpr_false": 2
+                }
+            }
+        ],
+        "us_p": [],
+        "coppa": []
+    },
+    "AppNexus": {
+        "init": [
+            {
+                "apiClazzName": "com.appnexus.opensdk.XandrAd",
+                "apiMethodName": "init",
+                "policyArgs": null,
+                "consentArgsIndex": null,
+                "consentArgsValue": null
+            },
+            {
+                "apiClazzName": "com.appnexus.opensdk.XandrAd",
+                "apiMethodName": "init",
+                "policyArgs": null,
+                "consentArgsIndex": null,
+                "consentArgsValue": null
+            }
+        ],
+        "gdpr": [
+            "IAB Framework",
+            {
+                "apiClazzName": "com.appnexus.opensdk.ANGDPRSettings",
+                "apiMethodName": "setConsentRequired",
+                "policyArgs": null,
+                "consentArgsIndex": 1,
+                "consentArgsValue": {
+                    "gdpr_true": true,
+                    "gdpr_false": "otherwise"
+                }
+            },
+            {
+                "apiClazzName": "com.appnexus.opensdk.ANGDPRSettings",
+                "apiMethodName": "setConsentString",
+                "policyArgs": null,
+                "consentArgsIndex": 1,
+                "consentArgsValue": null
+            },
+            {
+                "apiClazzName": "com.appnexus.opensdk.ANGDPRSettings",
+                "apiMethodName": "setPurposeConsents",
+                "policyArgs": null,
+                "consentArgsIndex": 1,
+                "consentArgsValue": null
+            }
+        ],
+        "us_p": [
+            "IAB Framework",
+            {
+                "apiClazzName": "com.appnexus.opensdk.ANUSPrivacySettings",
+                "apiMethodName": "setUSPrivacyString",
+                "policyArgs": null,
+                "consentArgsIndex": 1,
+                "consentArgsValue": null
+            }
+        ],
+        "coppa": []
+    },
+    "Facebook": {
+        "init": [
+            {
+                "apiClazzName": "com.facebook.ads.AudienceNetworkAds",
+                "apiMethodName": "initialize",
+                "policyArgs": null,
+                "consentArgsIndex": null,
+                "consentArgsValue": null
+            }
+        ],
+        "gdpr": [],
+        "us_p": [
+            {
+                "apiClazzName": "com.facebook.ads.AdSettings",
+                "apiMethodName": "setDataProcessingOptions",
+                "policyArgs": {
+                    "0": "LDU\"}"
+                },
+                "consentArgsIndex": 2,
+                "consentArgsValue": {
+                    "usp_true": 1000,
+                    "usp_false": null
+                }
+            }
+        ],
+        "coppa": [
+            {
+                "apiClazzName": "com.facebook.ads.AdSettings",
+                "apiMethodName": "setMixedAudience",
+                "policyArgs": null,
+                "consentArgsIndex": 0,
+                "consentArgsValue": {
+                    "coppa_true": true,
+                    "coppa_false": false
+                }
+            }
+        ]
+    },
+    "Google Play Games Services": {
+        "init": [],
+        "gdpr": [],
+        "us_p": [],
+        "coppa": []
+    },
+    "Twitter Kit": {
+        "init": [],
+        "gdpr": [],
+        "us_p": [],
+        "coppa": []
+    },
+    "Kakao": {
+        "init": [
+            {
+                "apiClazzName": "com.kakao.sdk.common.KakaoSdk",
+                "apiMethodName": "init",
+                "policyArgs": null,
+                "consentArgsIndex": null,
+                "consentArgsValue": null
+            },
+            {
+                "apiClazzName": "com.kakao.sdk.common.KakaoSdk",
+                "apiMethodName": "init",
+                "policyArgs": null,
+                "consentArgsIndex": null,
+                "consentArgsValue": null
+            },
+            {
+                "apiClazzName": "com.kakao.sdk.common.KakaoSdk",
+                "apiMethodName": "init",
+                "policyArgs": null,
+                "consentArgsIndex": null,
+                "consentArgsValue": null
+            }
+        ],
+        "gdpr": [],
+        "us_p": [],
+        "coppa": []
+    },
+    "VKontakte SDK": {
+        "init": [],
+        "gdpr": [],
+        "us_p": [],
+        "coppa": []
+    },
+    "TikTok open SDK": {
+        "init": [
+            {
+                "apiClazzName": "com.bytedance.sdk.open.tiktok.TikTokOpenApiFactory",
+                "apiMethodName": "init",
+                "policyArgs": null,
+                "consentArgsIndex": null,
+                "consentArgsValue": null
+            },
+            {
+                "apiClazzName": "com.bytedance.sdk.open.tiktok.TikTokOpenApiFactory",
+                "apiMethodName": "init",
+                "policyArgs": null,
+                "consentArgsIndex": null,
+                "consentArgsValue": null
+            }
+        ],
+        "gdpr": [],
+        "us_p": [],
+        "coppa": []
+    },
+    "Snap Creative Kit": {
+        "init": [],
+        "gdpr": [],
+        "us_p": [],
+        "coppa": []
+    },
+    "Snap Login Kit": {
+        "init": [],
+        "gdpr": [],
+        "us_p": [],
+        "coppa": []
+    },
+    "Smack API": {
+        "init": [],
+        "gdpr": [],
+        "us_p": [],
+        "coppa": []
+    },
+    "WeChat": {
+        "init": [],
+        "gdpr": [],
+        "us_p": [],
+        "coppa": []
+    },
+    "asmack": {
+        "init": [],
+        "gdpr": [],
+        "us_p": [],
+        "coppa": []
+    },
+    "Twitter4j": {
+        "init": [],
+        "gdpr": [],
+        "us_p": [],
+        "coppa": []
+    },
+    "Amazon GameCircle": {
+        "init": [],
+        "gdpr": [],
+        "us_p": [],
+        "coppa": []
+    },
+    "Digits for Android": {
+        "init": [],
+        "gdpr": [],
+        "us_p": [],
+        "coppa": []
+    },
+    "Snap Bitmoji Kit": {
+        "init": [],
+        "gdpr": [],
+        "us_p": [],
+        "coppa": []
+    },
+    "Playhaven": {
+        "init": [],
+        "gdpr": [],
+        "us_p": [],
+        "coppa": []
+    },
+    "ScoreLoop": {
+        "init": [],
+        "gdpr": [],
+        "us_p": [],
+        "coppa": []
+    },
+    "OpenFeint": {
+        "init": [],
+        "gdpr": [],
+        "us_p": [],
+        "coppa": []
+    },
+    "Papaya Social": {
+        "init": [],
+        "gdpr": [],
+        "us_p": [],
+        "coppa": []
+    },
+    "swarm": {
+        "init": [],
+        "gdpr": [],
+        "us_p": [],
+        "coppa": []
+    },
+    "BeInToo": {
+        "init": [],
+        "gdpr": [],
+        "us_p": [],
+        "coppa": []
+    },
+    "Socialize": {
+        "init": [],
+        "gdpr": [],
+        "us_p": [],
+        "coppa": []
+    },
+    "JTwitter": {
+        "init": [],
+        "gdpr": [],
+        "us_p": [],
+        "coppa": []
+    },
+    "Twitter API ME": {
+        "init": [],
+        "gdpr": [],
+        "us_p": [],
+        "coppa": []
+    },
+    "Firebase": {
+        "init": [
+            {
+                "apiClazzName": "com.google.firebase.analytics.FirebaseAnalytics",
+                "apiMethodName": "getInstance",
+                "policyArgs": null,
+                "consentArgsIndex": null,
+                "consentArgsValue": null
+            }
+        ],
+        "gdpr": [
+            {
+                "apiClazzName": "com.google.firebase.analytics.FirebaseAnalytics",
+                "apiMethodName": "setAnalyticsCollectionEnabled",
+                "policyArgs": null,
+                "consentArgsIndex": 0,
+                "consentArgsValue": {
+                    "gdpr_true": true,
+                    "gdpr_false": false
+                }
+            },
+            {
+                "apiClazzName": "com.google.firebase.analytics.FirebaseAnalytics",
+                "apiMethodName": "setConsent",
+                "policyArgs": null,
+                "consentArgsIndex": null,
+                "consentArgsValue": {
+                    "gdpr_true": "call the api"
+                }
+            }
+        ],
+        "us_p": [],
+        "coppa": []
+    },
+    "Google Analytics": {
+        "init": [
+            {
+                "apiClazzName": "com.google.android.gms.analytics.GoogleAnalytics",
+                "apiMethodName": "getInstance",
+                "policyArgs": null,
+                "consentArgsIndex": null,
+                "consentArgsValue": null
+            }
+        ],
+        "gdpr": [
+            {
+                "apiClazzName": "com.google.android.gms.analytics.GoogleAnalytics",
+                "apiMethodName": "setAppOptOut",
+                "policyArgs": null,
+                "consentArgsIndex": 0,
+                "consentArgsValue": {
+                    "gdpr_true": false,
+                    "gdpr_false": true
+                }
+            }
+        ],
+        "us_p": [],
+        "coppa": []
+    },
+    "Moat Analytics": {
+        "init": [],
+        "gdpr": [],
+        "us_p": [],
+        "coppa": []
+    },
+    "Visual Studio App Center": {
+        "init": [],
+        "gdpr": [
+            {
+                "apiClazzName": "com.microsoft.appcenter.AppCenter",
+                "apiMethodName": "setEnabled",
+                "policyArgs": null,
+                "consentArgsIndex": 0,
+                "consentArgsValue": {
+                    "gdpr_true": true,
+                    "gdpr_false": false
+                }
+            },
+            {
+                "apiClazzName": "com.microsoft.appcenter.AppCenter",
+                "apiMethodName": "setNetworkRequestsAllowed",
+                "policyArgs": null,
+                "consentArgsIndex": 0,
+                "consentArgsValue": {
+                    "gdpr_true": true,
+                    "gdpr_false": false
+                }
+            },
+            {
+                "apiClazzName": "com.microsoft.appcenter.analytics.Analytics",
+                "apiMethodName": "setEnabled",
+                "policyArgs": null,
+                "consentArgsIndex": 0,
+                "consentArgsValue": {
+                    "gdpr_true": true,
+                    "gdpr_false": false
+                }
+            }
+        ],
+        "us_p": [],
+        "coppa": []
+    },
+    "Yandex Metrica": {
+        "init": [
+            {
+                "apiClazzName": "com.yandex.metrica.YandexMetrica",
+                "apiMethodName": "activate",
+                "policyArgs": null,
+                "consentArgsIndex": null,
+                "consentArgsValue": null
+            }
+        ],
+        "gdpr": [
+            {
+                "apiClazzName": "com.yandex.metrica.YandexMetricaConfig$Builder",
+                "apiMethodName": "withStatisticsSending",
+                "policyArgs": null,
+                "consentArgsIndex": 0,
+                "consentArgsValue": {
+                    "gdpr_enable": false,
+                    "gdpr_disable": true
+                }
+            },
+            {
+                "apiClazzName": "com.yandex.metrica.YandexMetrica",
+                "apiMethodName": "setStatisticsSending",
+                "policyArgs": null,
+                "consentArgsIndex": 1,
+                "consentArgsValue": {
+                    "gdpr_true": true,
+                    "gdpr_false": false
+                }
+            }
+        ],
+        "us_p": [],
+        "coppa": []
+    },
+    "Flurry Analytics": {
+        "init": [
+            {
+                "apiClazzName": "com.flurry.android.FlurryAgent$Builder",
+                "apiMethodName": "build",
+                "policyArgs": null,
+                "consentArgsIndex": null,
+                "consentArgsValue": null
+            }
+        ],
+        "gdpr": [],
+        "us_p": [
+            {
+                "apiClazzName": "com.flurry.android.FlurryAgent",
+                "apiMethodName": "setDataSaleOptOut",
+                "policyArgs": null,
+                "consentArgsIndex": 0,
+                "consentArgsValue": {
+                    "usp_true": false,
+                    "usp_false": true
+                }
+            }
+        ],
+        "coppa": []
+    },
+    "GameAnalytics": {
+        "init": [
+            {
+                "apiClazzName": "com.gameanalytics.sdk.GameAnalytics",
+                "apiMethodName": "initialize",
+                "policyArgs": null,
+                "consentArgsIndex": null,
+                "consentArgsValue": null
+            },
+            {
+                "apiClazzName": "com.gameanalytics.sdk.GameAnalytics",
+                "apiMethodName": "initialize",
+                "policyArgs": null,
+                "consentArgsIndex": null,
+                "consentArgsValue": null
+            },
+            {
+                "apiClazzName": "com.gameanalytics.sdk.GameAnalytics",
+                "apiMethodName": "initializeWithGameKey",
+                "policyArgs": null,
+                "consentArgsIndex": null,
+                "consentArgsValue": null
+            },
+            {
+                "apiClazzName": "com.gameanalytics.sdk.GameAnalytics",
+                "apiMethodName": "initializeWithGameKey",
+                "policyArgs": null,
+                "consentArgsIndex": null,
+                "consentArgsValue": null
+            }
+        ],
+        "gdpr": [
+            {
+                "apiClazzName": "com.gameanalytics.sdk.GameAnalytics",
+                "apiMethodName": "setEnabledEventSubmission",
+                "policyArgs": null,
+                "consentArgsIndex": 0,
+                "consentArgsValue": {
+                    "gdpr_true": true,
+                    "gdpr_false": false
+                }
+            }
+        ],
+        "us_p": [],
+        "coppa": []
+    },
+    "Branch": {
+        "init": [
+            {
+                "apiClazzName": "io.branch.referral.Branch",
+                "apiMethodName": "getAutoInstance",
+                "policyArgs": null,
+                "consentArgsIndex": null,
+                "consentArgsValue": null
+            },
+            {
+                "apiClazzName": "io.branch.referral.Branch",
+                "apiMethodName": "getAutoInstance",
+                "policyArgs": null,
+                "consentArgsIndex": null,
+                "consentArgsValue": null
+            },
+            {
+                "apiClazzName": "io.branch.referral.Branch",
+                "apiMethodName": "getAutoInstance",
+                "policyArgs": null,
+                "consentArgsIndex": null,
+                "consentArgsValue": null
+            }
+        ],
+        "gdpr": [
+            {
+                "apiClazzName": "io.branch.referral.Branch",
+                "apiMethodName": "disableTracking",
+                "policyArgs": null,
+                "consentArgsIndex": 0,
+                "consentArgsValue": {
+                    "gdpr_true": true,
+                    "gdpr_false": false
+                }
+            }
+        ],
+        "us_p": [],
+        "coppa": []
+    },
+    "Braze": {
+        "init": [
+            {
+                "apiClazzName": "com.braze.Braze",
+                "apiMethodName": "getInstance",
+                "policyArgs": null,
+                "consentArgsIndex": null,
+                "consentArgsValue": null
+            }
+        ],
+        "gdpr": [
+            {
+                "apiClazzName": "com.braze.Braze",
+                "apiMethodName": "disableSdk",
+                "policyArgs": null,
+                "consentArgsIndex": null,
+                "consentArgsValue": {
+                    "gdpr_false": "call the api"
+                }
+            },
+            {
+                "apiClazzName": "com.braze.Braze",
+                "apiMethodName": "enableSdk",
+                "policyArgs": null,
+                "consentArgsIndex": null,
+                "consentArgsValue": {
+                    "gdpr_true": "call the api"
+                }
+            },
+            {
+                "apiClazzName": "com.braze.Braze",
+                "apiMethodName": "wipeData",
+                "policyArgs": null,
+                "consentArgsIndex": null,
+                "consentArgsValue": {
+                    "gdpr_false": "call the api"
+                }
+            }
+        ],
+        "us_p": [],
+        "coppa": []
+    },
+    "CleverTap": {
+        "init": [
+            {
+                "apiClazzName": "com.clevertap.android.sdk.CleverTapAPI",
+                "apiMethodName": "getDefaultInstance",
+                "policyArgs": null,
+                "consentArgsIndex": null,
+                "consentArgsValue": null
+            },
+            {
+                "apiClazzName": "com.clevertap.android.sdk.CleverTapAPI",
+                "apiMethodName": "getDefaultInstance",
+                "policyArgs": null,
+                "consentArgsIndex": null,
+                "consentArgsValue": null
+            }
+        ],
+        "gdpr": [
+            {
+                "apiClazzName": "com.clevertap.android.sdk.CleverTapAPI",
+                "apiMethodName": "setOptOut",
+                "policyArgs": null,
+                "consentArgsIndex": 0,
+                "consentArgsValue": {
+                    "gdpr_true": false,
+                    "gdpr_false": true
+                }
+            },
+            {
+                "apiClazzName": "com.clevertap.android.sdk.CleverTapAPI",
+                "apiMethodName": "enableDeviceNetworkInfoReporting",
+                "policyArgs": null,
+                "consentArgsIndex": 0,
+                "consentArgsValue": {
+                    "gdpr_true": true,
+                    "gdpr_false": false
+                }
+            },
+            {
+                "apiClazzName": "com.clevertap.android.sdk.CleverTapAPI",
+                "apiMethodName": "setOffline",
+                "policyArgs": null,
+                "consentArgsIndex": 0,
+                "consentArgsValue": {
+                    "gdpr_true": false,
+                    "gdpr_false": true
+                }
+            }
+        ],
+        "us_p": [],
+        "coppa": []
+    },
+    "Amplitude": {
+        "init": [
+            {
+                "apiClazzName": "com.amplitude.api.Amplitude",
+                "apiMethodName": "getInstance",
+                "policyArgs": null,
+                "consentArgsIndex": null,
+                "consentArgsValue": null
+            },
+            {
+                "apiClazzName": "com.amplitude.api.Amplitude",
+                "apiMethodName": "getInstance",
+                "policyArgs": null,
+                "consentArgsIndex": null,
+                "consentArgsValue": null
+            },
+            {
+                "apiClazzName": "com.amplitude.api.Amplitude",
+                "apiMethodName": "initialize",
+                "policyArgs": null,
+                "consentArgsIndex": null,
+                "consentArgsValue": null
+            },
+            {
+                "apiClazzName": "com.amplitude.api.Amplitude",
+                "apiMethodName": "initialize",
+                "policyArgs": null,
+                "consentArgsIndex": null,
+                "consentArgsValue": null
+            },
+            {
+                "apiClazzName": "com.amplitude.android.Amplitude",
+                "apiMethodName": "$init",
+                "policyArgs": null,
+                "consentArgsIndex": null,
+                "consentArgsValue": null
+            }
+        ],
+        "gdpr": [
+            {
+                "apiClazzName": "com.amplitude.api.Amplitude",
+                "apiMethodName": "setOptOut",
+                "policyArgs": null,
+                "consentArgsIndex": 0,
+                "consentArgsValue": {
+                    "gdpr_true": false,
+                    "gdpr_false": true
+                }
+            },
+            {
+                "apiClazzName": "com.amplitude.api.AmplitudeClient",
+                "apiMethodName": "setTrackingOptions",
+                "policyArgs": null,
+                "consentArgsIndex": null,
+                "consentArgsValue": {
+                    "gdpr_false": "call the api"
+                }
+            },
+            {
+                "apiClazzName": "com.amplitude.android.Configuration",
+                "apiMethodName": "setOptOut",
+                "policyArgs": null,
+                "consentArgsIndex": 0,
+                "consentArgsValue": {
+                    "gdpr_true": false,
+                    "gdpr_false": true
+                }
+            },
+            {
+                "apiClazzName": "com.amplitude.android.Configuration",
+                "apiMethodName": "setTrackingOptions",
+                "policyArgs": null,
+                "consentArgsIndex": null,
+                "consentArgsValue": {
+                    "gdpr_false": "call the api"
+                }
+            }
+        ],
+        "us_p": [],
+        "coppa": [
+            {
+                "apiClazzName": "com.amplitude.api.AmplitudeClient",
+                "apiMethodName": "enableCoppaControl",
+                "policyArgs": null,
+                "consentArgsIndex": null,
+                "consentArgsValue": {
+                    "coppa_true": "call the api"
+                }
+            },
+            {
+                "apiClazzName": "com.amplitude.api.AmplitudeClient",
+                "apiMethodName": "disableCoppaControl",
+                "policyArgs": null,
+                "consentArgsIndex": null,
+                "consentArgsValue": {
+                    "coppa_false": "call the api"
+                }
+            },
+            {
+                "apiClazzName": "com.amplitude.android.Configuration",
+                "apiMethodName": "setEnableCoppaControl",
+                "policyArgs": null,
+                "consentArgsIndex": 0,
+                "consentArgsValue": {
+                    "coppa_true": true,
+                    "coppa_false": false
+                }
+            }
+        ]
+    },
+    "mixpanel": {
+        "init": [
+            {
+                "apiClazzName": "com.mixpanel.android.mpmetrics.MixpanelAPI",
+                "apiMethodName": "getInstance",
+                "policyArgs": null,
+                "consentArgsIndex": null,
+                "consentArgsValue": null
+            },
+            {
+                "apiClazzName": "com.mixpanel.android.mpmetrics.MixpanelAPI",
+                "apiMethodName": "getInstance",
+                "policyArgs": null,
+                "consentArgsIndex": null,
+                "consentArgsValue": null
+            },
+            {
+                "apiClazzName": "com.mixpanel.android.mpmetrics.MixpanelAPI",
+                "apiMethodName": "getInstance",
+                "policyArgs": null,
+                "consentArgsIndex": null,
+                "consentArgsValue": null
+            },
+            {
+                "apiClazzName": "com.mixpanel.android.mpmetrics.MixpanelAPI",
+                "apiMethodName": "getInstance",
+                "policyArgs": null,
+                "consentArgsIndex": null,
+                "consentArgsValue": null
+            },
+            {
+                "apiClazzName": "com.mixpanel.android.mpmetrics.MixpanelAPI",
+                "apiMethodName": "getInstance",
+                "policyArgs": null,
+                "consentArgsIndex": null,
+                "consentArgsValue": null
+            },
+            {
+                "apiClazzName": "com.mixpanel.android.mpmetrics.MixpanelAPI",
+                "apiMethodName": "getInstance",
+                "policyArgs": null,
+                "consentArgsIndex": null,
+                "consentArgsValue": null
+            },
+            {
+                "apiClazzName": "com.mixpanel.android.mpmetrics.MixpanelAPI",
+                "apiMethodName": "getInstance",
+                "policyArgs": null,
+                "consentArgsIndex": null,
+                "consentArgsValue": null
+            }
+        ],
+        "gdpr": [
+            {
+                "apiClazzName": "com.mixpanel.android.mpmetrics.MixpanelAPI",
+                "apiMethodName": "optInTracking",
+                "policyArgs": null,
+                "consentArgsIndex": null,
+                "consentArgsValue": {
+                    "gdpr_true": "call the api"
+                }
+            },
+            {
+                "apiClazzName": "com.mixpanel.android.mpmetrics.MixpanelAPI",
+                "apiMethodName": "optInTracking",
+                "policyArgs": null,
+                "consentArgsIndex": null,
+                "consentArgsValue": {
+                    "gdpr_true": "call the api"
+                }
+            },
+            {
+                "apiClazzName": "com.mixpanel.android.mpmetrics.MixpanelAPI",
+                "apiMethodName": "optInTracking",
+                "policyArgs": null,
+                "consentArgsIndex": null,
+                "consentArgsValue": {
+                    "gdpr_true": "call the api"
+                }
+            },
+            {
+                "apiClazzName": "com.mixpanel.android.mpmetrics.MixpanelAPI",
+                "apiMethodName": "optOutTracking",
+                "policyArgs": null,
+                "consentArgsIndex": null,
+                "consentArgsValue": {
+                    "gdpr_false": "call the api"
+                }
+            },
+            {
+                "apiClazzName": "com.mixpanel.android.mpmetrics.MixpanelAPI",
+                "apiMethodName": "getInstance",
+                "policyArgs": null,
+                "consentArgsIndex": 3,
+                "consentArgsValue": {
+                    "gdpr_true": false,
+                    "gdpr_false": true
+                }
+            },
+            {
+                "apiClazzName": "com.mixpanel.android.mpmetrics.MixpanelAPI",
+                "apiMethodName": "getInstance",
+                "policyArgs": null,
+                "consentArgsIndex": 4,
+                "consentArgsValue": {
+                    "gdpr_true": false,
+                    "gdpr_false": true
+                }
+            },
+            {
+                "apiClazzName": "com.mixpanel.android.mpmetrics.MixpanelAPI",
+                "apiMethodName": "getInstance",
+                "policyArgs": null,
+                "consentArgsIndex": 3,
+                "consentArgsValue": {
+                    "gdpr_true": false,
+                    "gdpr_false": true
+                }
+            },
+            {
+                "apiClazzName": "com.mixpanel.android.mpmetrics.MixpanelAPI",
+                "apiMethodName": "getInstance",
+                "policyArgs": null,
+                "consentArgsIndex": 2,
+                "consentArgsValue": {
+                    "gdpr_true": false,
+                    "gdpr_false": true
+                }
+            },
+            {
+                "apiClazzName": "com.mixpanel.android.mpmetrics.MixpanelAPI",
+                "apiMethodName": "getInstance",
+                "policyArgs": null,
+                "consentArgsIndex": 4,
+                "consentArgsValue": {
+                    "gdpr_true": false,
+                    "gdpr_false": true
+                }
+            },
+            {
+                "apiClazzName": "com.mixpanel.android.mpmetrics.MixpanelAPI",
+                "apiMethodName": "getInstance",
+                "policyArgs": null,
+                "consentArgsIndex": 5,
+                "consentArgsValue": {
+                    "gdpr_true": false,
+                    "gdpr_false": true
+                }
+            },
+            {
+                "apiClazzName": "com.mixpanel.android.mpmetrics.MixpanelAPI",
+                "apiMethodName": "getInstance",
+                "policyArgs": null,
+                "consentArgsIndex": 3,
+                "consentArgsValue": {
+                    "gdpr_true": false,
+                    "gdpr_false": true
+                }
+            }
+        ],
+        "us_p": [],
+        "coppa": []
+    },
+    "Umeng": {
+        "init": [
+            {
+                "apiClazzName": "com.umeng.commonsdk.UMConfigure",
+                "apiMethodName": "init",
+                "policyArgs": null,
+                "consentArgsIndex": null,
+                "consentArgsValue": null
+            },
+            {
+                "apiClazzName": "com.umeng.commonsdk.UMConfigure",
+                "apiMethodName": "init",
+                "policyArgs": null,
+                "consentArgsIndex": null,
+                "consentArgsValue": null
+            }
+        ],
+        "gdpr": [
+            {
+                "apiClazzName": "com.umeng.commonsdk.UMConfigure",
+                "apiMethodName": "submitPolicyGrantResult",
+                "policyArgs": null,
+                "consentArgsIndex": 0,
+                "consentArgsValue": {
+                    "gdpr_true": true,
+                    "gdpr_false": false
+                }
+            }
+        ],
+        "us_p": [],
+        "coppa": []
+    },
+    "New Relic Mobile": {
+        "init": [],
+        "gdpr": [],
+        "us_p": [],
+        "coppa": []
+    },
+    "Localytics": {
+        "init": [
+            {
+                "apiClazzName": "com.localytics.android.Localytics",
+                "apiMethodName": "autoIntegrate",
+                "policyArgs": null,
+                "consentArgsIndex": null,
+                "consentArgsValue": null
+            }
+        ],
+        "gdpr": [
+            {
+                "apiClazzName": "com.localytics.android.Localytics",
+                "apiMethodName": "setPrivacyOptedOut",
+                "policyArgs": null,
+                "consentArgsIndex": 0,
+                "consentArgsValue": {
+                    "gdpr_true": false,
+                    "gdpr_false": true
+                }
+            },
+            {
+                "apiClazzName": "com.localytics.android.Localytics",
+                "apiMethodName": "setOptedOut",
+                "policyArgs": null,
+                "consentArgsIndex": 0,
+                "consentArgsValue": {
+                    "gdpr_true": false,
+                    "gdpr_false": true
+                }
+            },
+            {
+                "apiClazzName": "com.localytics.android.Localytics",
+                "apiMethodName": "pauseDataUploading",
+                "policyArgs": null,
+                "consentArgsIndex": 0,
+                "consentArgsValue": {
+                    "gdpr_true": false,
+                    "gdpr_false": true
+                }
+            },
+            {
+                "apiClazzName": "com.localytics.android.Localytics",
+                "apiMethodName": "setCustomerIdWithPrivacyOptedOut",
+                "policyArgs": null,
+                "consentArgsIndex": 1,
+                "consentArgsValue": {
+                    "gdpr_true": false,
+                    "gdpr_false": true
+                }
+            }
+        ],
+        "us_p": [],
+        "coppa": []
+    },
+    "Segment": {
+        "init": [],
+        "gdpr": [],
+        "us_p": [],
+        "coppa": []
+    },
+    "Leanplum": {
+        "init": [],
+        "gdpr": [],
+        "us_p": [],
+        "coppa": []
+    },
+    "Optimizely": {
+        "init": [],
+        "gdpr": [],
+        "us_p": [],
+        "coppa": []
+    },
+    "Countly": {
+        "init": [
+            {
+                "apiClazzName": "ly.count.android.sdk.Countly",
+                "apiMethodName": "init",
+                "policyArgs": null,
+                "consentArgsIndex": null,
+                "consentArgsValue": null
+            },
+            {
+                "apiClazzName": "ly.count.android.sdk.Countly",
+                "apiMethodName": "init",
+                "policyArgs": null,
+                "consentArgsIndex": null,
+                "consentArgsValue": null
+            },
+            {
+                "apiClazzName": "ly.count.android.sdk.Countly",
+                "apiMethodName": "init",
+                "policyArgs": null,
+                "consentArgsIndex": null,
+                "consentArgsValue": null
+            },
+            {
+                "apiClazzName": "ly.count.android.sdk.Countly",
+                "apiMethodName": "init",
+                "policyArgs": null,
+                "consentArgsIndex": null,
+                "consentArgsValue": null
+            },
+            {
+                "apiClazzName": "ly.count.android.sdk.Countly",
+                "apiMethodName": "init",
+                "policyArgs": null,
+                "consentArgsIndex": null,
+                "consentArgsValue": null
+            }
+        ],
+        "gdpr": [
+            {
+                "apiClazzName": "ly.count.android.sdk.CountlyConfig",
+                "apiMethodName": "setRequiresConsent",
+                "policyArgs": null,
+                "consentArgsIndex": 0,
+                "consentArgsValue": {
+                    "gdpr_enable": true,
+                    "gdpr_disable": false
+                }
+            },
+            {
+                "apiClazzName": "ly.count.android.sdk.Countly",
+                "apiMethodName": "setConsent",
+                "policyArgs": null,
+                "consentArgsIndex": 1,
+                "consentArgsValue": {
+                    "gdpr_true": true,
+                    "gdpr_false": false
+                }
+            },
+            {
+                "apiClazzName": "ly.count.android.sdk.Countly",
+                "apiMethodName": "setConsentFeatureGroup",
+                "policyArgs": null,
+                "consentArgsIndex": 1,
+                "consentArgsValue": {
+                    "gdpr_true": true,
+                    "gdpr_false": false
+                }
+            },
+            {
+                "apiClazzName": "ly.count.android.sdk.Countly",
+                "apiMethodName": "giveConsent",
+                "policyArgs": null,
+                "consentArgsIndex": null,
+                "consentArgsValue": {
+                    "gdpr_true": "call the api"
+                }
+            }
+        ],
+        "us_p": [],
+        "coppa": []
+    },
+    "Apptimize": {
+        "init": [],
+        "gdpr": [],
+        "us_p": [],
+        "coppa": []
+    },
+    "Splunk MINT": {
+        "init": [],
+        "gdpr": [],
+        "us_p": [],
+        "coppa": []
+    },
+    "Krux": {
+        "init": [],
+        "gdpr": [],
+        "us_p": [],
+        "coppa": []
+    },
+    "Quantcast": {
+        "init": [],
+        "gdpr": [],
+        "us_p": [],
+        "coppa": []
+    },
+    "Cordova Google Analytics Plugin": {
+        "init": [],
+        "gdpr": [],
+        "us_p": [],
+        "coppa": []
+    },
+    "Appsee": {
+        "init": [],
+        "gdpr": [],
+        "us_p": [],
+        "coppa": []
+    },
+    "Adbrix": {
+        "init": [],
+        "gdpr": [],
+        "us_p": [],
+        "coppa": []
+    },
+    "Cuebiq": {
+        "init": [],
+        "gdpr": [],
+        "us_p": [],
+        "coppa": []
+    },
+    "Apsalar": {
+        "init": [],
+        "gdpr": [],
+        "us_p": [],
+        "coppa": []
+    },
+    "Webtrends mobile": {
+        "init": [],
+        "gdpr": [],
+        "us_p": [],
+        "coppa": []
+    },
+    "TalkingData": {
+        "init": [],
+        "gdpr": [],
+        "us_p": [],
+        "coppa": []
+    },
+    "Adobe App Measurement for Android": {
+        "init": [],
+        "gdpr": [],
+        "us_p": [],
+        "coppa": []
+    },
+    "Applause": {
+        "init": [],
+        "gdpr": [],
+        "us_p": [],
+        "coppa": []
+    },
+    "oneAudience": {
+        "init": [],
+        "gdpr": [],
+        "us_p": [],
+        "coppa": []
+    },
+    "Startapp": {
+        "init": [
+            {
+                "apiClazzName": "com.startapp.sdk.adsbase.StartAppSDK",
+                "apiMethodName": "init",
+                "policyArgs": null,
+                "consentArgsIndex": null,
+                "consentArgsValue": null
+            }
+        ],
+        "gdpr": [
+            {
+                "apiClazzName": "com.startapp.sdk.adsbase.StartAppSDK",
+                "apiMethodName": "setUserConsent",
+                "policyArgs": null,
+                "consentArgsIndex": 3,
+                "consentArgsValue": {
+                    "gdpr_true": true,
+                    "gdpr_false": false
+                }
+            }
+        ],
+        "us_p": [
+            {
+                "SharedPreferences_source": {
+                    "How": "API_RETURNED_VALUE",
+                    "API_CLASS": "com.startapp.sdk.adsbase.StartAppSDK",
+                    "API_METHOD": "getExtras",
+                    "KEY_PARAMETER": "None"
+                },
+                "SharedPreferences_key": "medCCPA",
+                "consentArgsValue": {
+                    "usp_true": true,
+                    "usp_false": false
+                }
+            }
+        ],
+        "coppa": [
+            {
+                "SharedPreferences_source": {
+                    "How": "API_RETURNED_VALUE",
+                    "API_CLASS": "com.startapp.sdk.adsbase.StartAppSDK",
+                    "API_METHOD": "getExtras",
+                    "KEY_PARAMETER": "None"
+                },
+                "SharedPreferences_key": "medAgeRestrict",
+                "consentArgsValue": {
+                    "coppa_true": true,
+                    "coppa_false": false
+                }
+            }
+        ]
+    },
+    "HyprMX": {
+        "init": [
+            {
+                "apiClazzName": "com.hyprmx.android.sdk.core.HyprMX",
+                "apiMethodName": "initialize",
+                "policyArgs": null,
+                "consentArgsIndex": null,
+                "consentArgsValue": null
+            },
+            {
+                "apiClazzName": "com.hyprmx.android.sdk.core.HyprMX",
+                "apiMethodName": "initialize",
+                "policyArgs": null,
+                "consentArgsIndex": null,
+                "consentArgsValue": null
+            },
+            {
+                "apiClazzName": "com.hyprmx.android.sdk.core.HyprMX",
+                "apiMethodName": "initialize",
+                "policyArgs": null,
+                "consentArgsIndex": null,
+                "consentArgsValue": null
+            }
+        ],
+        "gdpr": [
+            {
+                "variableClazz": "com.hyprmx.android.sdk.consent.ConsentStatus",
+                "variableName": "ConsentStatus",
+                "variableValue": {
+                    "gdpr_true": 1,
+                    "gdpr_false": 2,
+                    "gdpr_unknown": 0
+                }
+            }
+        ],
+        "us_p": [
+            {
+                "variableClazz": "com.hyprmx.android.sdk.consent.ConsentStatus",
+                "variableName": "ConsentStatus",
+                "variableValue": {
+                    "usp_true": 1,
+                    "usp_false": 2,
+                    "usp_unknown": 0
+                }
+            }
+        ],
+        "coppa": [
+            "IAB Framework"
+        ]
+    },
+    "InMobi": {
+        "init": [
+            {
+                "apiClazzName": "com.inmobi.sdk.InMobiSdk",
+                "apiMethodName": "init",
+                "policyArgs": null,
+                "consentArgsIndex": null,
+                "consentArgsValue": null
+            }
+        ],
+        "gdpr": [
+            {
+                "apiClazzName": "com.inmobi.sdk.InMobiSdk",
+                "apiMethodName": "init",
+                "policyArgs": null,
+                "consentArgsIndex": 2,
+                "consentArgsValue": {
+                    "gdpr_true": "JSONObject consentObject = new JSONObject(); consentObject.put(InMobiSdk.IM_GDPR_CONSENT_AVAILABLE, true);",
+                    "gdpr_false": "JSONObject consentObject = new JSONObject(); consentObject.put(InMobiSdk.IM_GDPR_CONSENT_AVAILABLE, false);"
+                }
+            }
+        ],
+        "us_p": [],
+        "coppa": [
+            {
+                "apiClazzName": "com.inmobi.sdk.InMobiSdk",
+                "apiMethodName": "setIsAgeRestricted",
+                "policyArgs": null,
+                "consentArgsIndex": 0,
+                "consentArgsValue": {
+                    "coppa_true": true,
+                    "coppa_false": false
+                }
+            }
+        ]
+    },
+    "Taboola": {
+        "init": [
+            {
+                "apiClazzName": "com.taboola.android.Taboola",
+                "apiMethodName": "init",
+                "policyArgs": null,
+                "consentArgsIndex": null,
+                "consentArgsValue": null
+            }
+        ],
+        "gdpr": [
+            "Hashmap"
+        ],
+        "us_p": [
+            "Hashmap"
+        ],
+        "coppa": []
+    },
+    "CallDorado": {
+        "init": [
+            {
+                "apiClazzName": "com.calldorado.Calldorado",
+                "apiMethodName": "startCalldorado",
+                "policyArgs": null,
+                "consentArgsIndex": null,
+                "consentArgsValue": null
+            },
+            {
+                "apiClazzName": "com.calldorado.Calldorado",
+                "apiMethodName": "startCalldorado",
+                "policyArgs": null,
+                "consentArgsIndex": null,
+                "consentArgsValue": null
+            },
+            {
+                "apiClazzName": "com.calldorado.Calldorado",
+                "apiMethodName": "startCalldorado",
+                "policyArgs": null,
+                "consentArgsIndex": null,
+                "consentArgsValue": null
+            },
+            {
+                "apiClazzName": "com.calldorado.Calldorado",
+                "apiMethodName": "startCalldorado",
+                "policyArgs": null,
+                "consentArgsIndex": null,
+                "consentArgsValue": null
+            }
+        ],
+        "gdpr": [
+            "Hashmap"
+        ],
+        "us_p": [],
+        "coppa": []
+    },
+    "Comscore Analytics": {
+        "init": [
+            {
+                "apiClazzName": "com.comscore.Analytics",
+                "apiMethodName": "start",
+                "policyArgs": null,
+                "consentArgsIndex": null,
+                "consentArgsValue": null
+            }
+        ],
+        "gdpr": [
+            {
+                "apiClazzName": "com.comscore.Configuration",
+                "apiMethodName": "setPersistentLabel",
+                "policyArgs": {
+                    "0": "cs_ucfr"
+                },
+                "consentArgsIndex": 1,
+                "consentArgsValue": {
+                    "gdpr_true": 1,
+                    "gdpr_false": "false"
+                }
+            },
+            {
+                "apiClazzName": "com.comscore.ClientConfiguration",
+                "apiMethodName": "setPersistentLabel",
+                "policyArgs": {
+                    "0": "cs_ucfr"
+                },
+                "consentArgsIndex": 1,
+                "consentArgsValue": {
+                    "gdpr_true": 1,
+                    "gdpr_false": "false"
+                }
+            },
+            {
+                "apiClazzName": "java.util.HashMap",
+                "apiMethodName": "put",
+                "policyArgs": {
+                    "0": "cs_ucfr"
+                },
+                "consentArgsIndex": 1,
+                "consentArgsValue": {
+                    "gdpr_true": 1,
+                    "gdpr_false": "false"
+                }
+            }
+        ],
+        "us_p": [],
+        "coppa": []
+    }
+}
